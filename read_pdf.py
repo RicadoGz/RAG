@@ -65,13 +65,15 @@ def read_chunks_jsonl(jsonl_path: str) -> list[dict]:
         for line in f:
             chunks.append(json.loads(line))
     return chunks
+#  this just read from the json file 
 
-
-
+#  this one is read from it but only keep the text
+# use the model encode make it to be vector and return list
 def embed_chunks(chunks: list[dict]) -> list[dict]:
     texts = [chunk["text"] for chunk in chunks]
     embeddings = model.encode(texts, normalize_embeddings=True)
     return embeddings
+
 def write_chunks_jsonl(chunks: list[str], out_path: str) -> None:
     with open(out_path, "w", encoding="utf-8") as f:
         for i, text in enumerate(chunks):
@@ -89,11 +91,19 @@ def main():
         outputPara = get_chunk_paragraphs(output_path)
         outputPara = chunk_paragraphs(outputPara)   
         write_chunks_jsonl(outputPara, "output.jsonl")
+        # this will read from the jsonl file and get the text and chunk id into a list of dict
         chunkFromjsonl=read_chunks_jsonl("output.jsonl")
+        
+        # this will get the text from the jsonl file and make it to be vector and return a list of dict with chunk id and vector
         jsonAfterEmbed=embed_chunks(chunkFromjsonl)
         q = "how much money did Microsoft make in this?"
+
+        # this will be return which line most similar to the file
         q_vec = model.encode([q], normalize_embeddings=True)
+
+        # this will return the top 5 most similar line to the question and print the score and chunk id and the text of the chunk
         hits = util.semantic_search(q_vec, jsonAfterEmbed, top_k=5)[0]
+        #{"corpus_id": 65, "score": 0.48}
         for h in hits:
             idx = h["corpus_id"]
             print("score=", h["score"], "chunk_id=", chunkFromjsonl[idx]["chunk_id"])
