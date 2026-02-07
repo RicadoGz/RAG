@@ -1,6 +1,12 @@
 from docx import Document
 import json
+from sentence_transformers import SentenceTransformer
+from sentence_transformers import util
+model = SentenceTransformer("all-MiniLM-L6-v2")
+
+
 doc = Document("document/docx/MSFT_FY25q4_10K.docx")
+    
 
 
 def extract_text_from_docx(file_path: str) -> tuple[list[str], list[list[list[str]]]]:
@@ -53,8 +59,19 @@ def chunk_paragraphs(paragra:list[str],target_chars:int = 2500)->list[str]:
     if buf:
         chunks.append("\n".join(buf))
     return chunks
+def read_chunks_jsonl(jsonl_path: str) -> list[dict]:
+    chunks = []
+    with open(jsonl_path, "r", encoding="utf-8") as f:
+        for line in f:
+            chunks.append(json.loads(line))
+    return chunks
 
 
+
+def embed_chunks(chunks: list[dict]) -> list[dict]:
+    texts = [chunk["text"] for chunk in chunks]
+    embeddings = model.encode(texts, normalize_embeddings=True)
+    return embeddings
 def write_chunks_jsonl(chunks: list[str], out_path: str) -> None:
     with open(out_path, "w", encoding="utf-8") as f:
         for i, text in enumerate(chunks):
@@ -63,6 +80,7 @@ def write_chunks_jsonl(chunks: list[str], out_path: str) -> None:
 
 def main():
     outputPara=[]
+    chunkFromjsonl=[]
     file_path = "document/docx/MSFT_FY25q4_10K.docx"
     output_path = "output.txt"
     paras, tables = extract_text_from_docx(file_path)
@@ -71,8 +89,19 @@ def main():
         outputPara = get_chunk_paragraphs(output_path)
         outputPara = chunk_paragraphs(outputPara)   
         write_chunks_jsonl(outputPara, "output.jsonl")
-        print(f"Extracted {len(outputPara)} paragraphs from the document.")
+        chunkFromjsonl=read_chunks_jsonl("output.jsonl")
+        jsonAfterEmbed=embed_chunks(chunkFromjsonl)
+        q = "how much money did Microsoft make in this?"
+        q_vec = model.encode([q], normalize_embeddings=True)
+        hits = util.semantic_search(q_vec, jsonAfterEmbed, top_k=5)[0]
+        for h in hits:
+            idx = h["corpus_id"]
+            print("score=", h["score"], "chunk_id=", chunkFromjsonl[idx]["chunk_id"])
+            print(chunkFromjsonl[idx]["text"][:200], "\n---\n")
     else:
         print("Failed to write content to file.")   
+
+
+
 if __name__ == "__main__":
         main()
