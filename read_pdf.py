@@ -2,6 +2,7 @@ from docx import Document
 import json
 from sentence_transformers import SentenceTransformer
 from sentence_transformers import util
+from chatStart import ask_ollama
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
@@ -45,7 +46,7 @@ def copyExistIntoFileTest(para: list,tables:list,file_path:str)->bool:
 def get_chunk_paragraphs(txt_path: str) -> list[str]:
     with open(txt_path, "r", encoding="utf-8") as f:
         return [line.strip() for line in f if line.strip()]
-def chunk_paragraphs(paragra:list[str],target_chars:int = 2500)->list[str]:
+def chunk_paragraphs(paragra:list[str],target_chars:int =1000)->list[str]:
     chunks=[]
     buf=[]
     n=0
@@ -81,8 +82,10 @@ def write_chunks_jsonl(chunks: list[str], out_path: str) -> None:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
 def main():
+    question=input("do you want to read the document and ask question? ")
     outputPara=[]
     chunkFromjsonl=[]
+    evidence = []
     file_path = "document/docx/MSFT_FY25q4_10K.docx"
     output_path = "output.txt"
     paras, tables = extract_text_from_docx(file_path)
@@ -96,16 +99,22 @@ def main():
         
         # this will get the text from the jsonl file and make it to be vector and return a list of dict with chunk id and vector
         jsonAfterEmbed=embed_chunks(chunkFromjsonl)
-        q = "how much money did Microsoft make in this?"
+       
 
         # this will be return which line most similar to the file
-        q_vec = model.encode([q], normalize_embeddings=True)
+        q_vec = model.encode([question], normalize_embeddings=True)
 
         # this will return the top 5 most similar line to the question and print the score and chunk id and the text of the chunk
         hits = util.semantic_search(q_vec, jsonAfterEmbed, top_k=5)[0]
         #{"corpus_id": 65, "score": 0.48}
         for h in hits:
             idx = h["corpus_id"]
+            evidence.append({
+        "chunk_id": chunkFromjsonl[idx]["chunk_id"],
+        "text": chunkFromjsonl[idx]["text"]
+             })
+            answer = ask_ollama(question, evidence)
+            print(answer)
             print("score=", h["score"], "chunk_id=", chunkFromjsonl[idx]["chunk_id"])
             print(chunkFromjsonl[idx]["text"][:200], "\n---\n")
     else:
