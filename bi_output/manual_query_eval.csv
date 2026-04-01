@@ -1,0 +1,13 @@
+query,expected_intent,dense_top1_intent,dense_top1_score,dense_top1_hit,dense_hit_at_k,tfidf_top1_intent,tfidf_top1_score,tfidf_top1_hit,tfidf_hit_at_k
+I need to cancel an order I just placed,cancel_order,cancel_order,0.8721669912338257,1,1,place_order,0.6093448975781596,0,1
+Can I update items in my current order?,change_order,change_order,0.7492377758026123,1,1,change_order,0.4529560213776643,1,1
+Please change my delivery address for this order,change_shipping_address,change_shipping_address,0.8772764801979065,1,1,change_shipping_address,0.5972402217277472,1,1
+Will I be charged if I cancel now?,check_cancellation_fee,check_cancellation_fee,0.7748388051986694,1,1,check_cancellation_fee,0.2602386064345947,1,1
+Where can I download my invoice?,get_invoice,get_invoice,0.9016618132591248,1,1,get_invoice,0.6984431010774507,1,1
+Which payment options do you currently accept?,check_payment_methods,check_payment_methods,0.9656234383583069,1,1,check_payment_methods,0.7361169938141776,1,1
+I want my money back for this purchase,get_refund,get_refund,0.7423560619354248,1,1,get_refund,0.5342887955353454,1,1
+How long does a refund usually take to arrive?,track_refund,check_refund_policy,0.8512214422225952,0,0,delivery_period,0.7113776140288317,0,0
+Can you tell me where my package is right now?,track_order,delivery_period,0.7629982233047485,0,0,newsletter_subscription,0.4637686530063245,0,0
+How many days does shipping usually take?,delivery_period,delivery_period,0.8581243753433228,1,1,delivery_period,0.5202905795456964,1,1
+I need to talk to a live support agent,contact_human_agent,contact_human_agent,0.8337981700897217,1,1,contact_human_agent,0.7885601972590316,1,1
+I forgot my password and cannot log in,recover_password,recover_password,0.8488696813583374,1,1,recover_password,0.47917469891660724,1,1

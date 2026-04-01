@@ -1,0 +1,1081 @@
+query_id,method,query_index,query_text,query_intent,top_k,latency_ms,top1_score,hit_at_k,precision_at_k,rr,ndcg_at_k
+dense_q_15521,dense,15521,"I want to downlpad my invoice from {{Person Name}}, I need help",get_invoice,5,1527.3113,0.914051353931427,1.0,1.0,1.0,1.0
+dense_q_4226,dense,4226,what do I have to do to see my bill #00108?,check_invoice,5,188.4167,0.9784154891967773,1.0,1.0,1.0,1.0
+dense_q_1315,dense,1315,help to swap an article of order {{Order Number}},change_order,5,552.4532,0.9847446084022522,1.0,1.0,1.0,1.0
+dense_q_20746,dense,20746,how can I reset my profile access key?,recover_password,5,109.4259,0.9713741540908813,1.0,1.0,1.0,1.0
+dense_q_4672,dense,4672,check invoices from {{Person Name}},check_invoice,5,458.4298,1.0,1.0,1.0,1.0,1.0
+dense_q_25272,dense,25272,i need assistance to check the eta of the order {{Order Number}},track_order,5,111.5001,1.0,1.0,1.0,1.0,1.0
+dense_q_22740,dense,22740,I do not know how to leave my feedback for a product,review,5,479.4122,0.9871379137039185,1.0,1.0,1.0,1.0
+dense_q_9862,dense,9862,can ya help me contacting an operator,contact_human_agent,5,134.2687,0.9910821318626404,1.0,1.0,1.0,1.0
+dense_q_2054,dense,2054,want help trying to edit my addres,change_shipping_address,5,100.4053,0.8981008529663086,1.0,1.0,1.0,1.0
+dense_q_24404,dense,24404,how could i change to the {{Account Type}} account,switch_account,5,47.2445,0.9964538812637329,1.0,1.0,1.0,1.0
+dense_q_3082,dense,3082,I need to check the withdrawal fee,check_cancellation_fee,5,112.622,0.9579035043716431,1.0,1.0,1.0,1.0
+dense_q_8233,dense,8233,i want help to see what hours i can call custmer service,contact_customer_service,5,150.9798,0.8911001682281494,1.0,1.0,1.0,1.0
+dense_q_5779,dense,5779,can you help me listing your accepted payment modalities?,check_payment_methods,5,20.6839,0.9876387119293213,1.0,1.0,1.0,1.0
+dense_q_26446,dense,26446,I expect a compensation of {{Refund Amount}} dollars,track_refund,5,25.1738,1.0,1.0,1.0,1.0,1.0
+dense_q_21210,dense,21210,I want assistance to notify of an error with a registration,registration_problems,5,27.3508,0.9746475219726562,1.0,1.0,1.0,1.0
+dense_q_14500,dense,14500,modify details on {{Account Type}} account,edit_account,5,114.9213,1.0,1.0,1.0,1.0,1.0
+dense_q_7199,dense,7199,want help filing a claim,complaint,5,1322.3922,0.9708696007728577,1.0,1.0,1.0,1.0
+dense_q_11888,dense,11888,have a problem with the removal of my {{Account Type}} account,delete_account,5,35.9655,0.9898428320884705,1.0,1.0,1.0,1.0
+dense_q_6260,dense,6260,need assistance to see in what cases can i ask for refunds,check_refund_policy,5,28.255,0.9882105588912964,1.0,1.0,1.0,1.0
+dense_q_2259,dense,2259,the shipping address has changed how can i modify it,change_shipping_address,5,22.6713,0.97881019115448,1.0,1.0,1.0,1.0
+dense_q_1949,dense,1949,edit order {{Order Number}},change_order,5,23.3187,1.0,1.0,1.0,1.0,1.0
+dense_q_19555,dense,19555,I have got to acquire several of your article,place_order,5,25.8596,0.9332835674285889,1.0,1.0,1.0,1.0
+dense_q_22961,dense,22961,i have a trouble submitting a different shipping address,set_up_shipping_address,5,18.3233,0.984943151473999,1.0,1.0,1.0,1.0
+dense_q_7280,dense,7280,i need assistance making a consumer claim against ur compan,complaint,5,35.2089,0.8834754228591919,1.0,1.0,1.0,1.0
+dense_q_22364,dense,22364,how can i submit my feedback about ur products,review,5,14.9874,0.9821987748146057,1.0,1.0,1.0,1.0
+dense_q_4447,dense,4447,how to check bill #85632?,check_invoice,5,15.0393,0.9498848915100098,1.0,1.0,1.0,1.0
+dense_q_22864,dense,22864,help me submit some feedback for a service,review,5,30.4007,0.9769839644432068,1.0,1.0,1.0,1.0
+dense_q_1813,dense,1813,i want help removing a product from order {{Order Number}},change_order,5,23.4828,0.9889841675758362,1.0,1.0,1.0,1.0
+dense_q_12586,dense,12586,wanna see what shipping methods are available how to do it,delivery_options,5,19.6505,0.9376862049102783,1.0,1.0,1.0,1.0
+dense_q_21902,dense,21902,I need assistance to leave an opinion for your services,review,5,23.609,0.9663810133934021,1.0,1.0,1.0,1.0
+dense_q_8316,dense,8316,I do not know how I can get in touch with customer service,contact_customer_service,5,28.7688,0.9896218180656433,1.0,1.0,1.0,1.0
+dense_q_4373,dense,4373,I need assistance to look for the invoice #00108,check_invoice,5,25.6791,0.9643470644950867,1.0,0.8,0.5,0.7606395682357036
+dense_q_717,dense,717,i have to cancel purchase {{Order Number}},cancel_order,5,21.3377,1.0,1.0,1.0,1.0,1.0
+dense_q_3388,dense,3388,"I have to check the early exit charge, how can I do it?",check_cancellation_fee,5,25.772,0.9686673879623413,1.0,1.0,1.0,1.0
+dense_q_17561,dense,17561,"I have to sign up to your newsletter, I need assistance",newsletter_subscription,5,27.3448,0.9707323908805847,1.0,1.0,1.0,1.0
+dense_q_23138,dense,23138,there is a problem entering my secondary shipping address,set_up_shipping_address,5,21.1231,0.9825801849365234,1.0,1.0,1.0,1.0
+dense_q_16327,dense,16327,"I paid {{Currency Symbol}}{{Refund Amount}} for a product, I want to obtain a fucking rebate",get_refund,5,108.8886,0.9777497053146362,1.0,1.0,1.0,1.0
+dense_q_4897,dense,4897,is it possible to chec my bill #37777,check_invoice,5,15.3519,0.8172999620437622,1.0,0.8,0.5,0.7606395682357036
+dense_q_8815,dense,8815,what is thecustomer support mail,contact_customer_service,5,21.6277,0.6873233318328857,1.0,1.0,1.0,1.0
+dense_q_24776,dense,24776,changkng to platinum account,switch_account,5,111.9107,0.8142846822738647,1.0,1.0,1.0,1.0
+dense_q_16019,dense,16019,what do i have to do to request restitutions of money,get_refund,5,22.2825,0.9720637798309326,1.0,1.0,1.0,1.0
+dense_q_614,dense,614,how do I cancel purchae {{Order Number}}?,cancel_order,5,26.8909,0.9999999403953552,1.0,1.0,1.0,1.0
+dense_q_21648,dense,21648,where do I inform of an error with sign-up?,registration_problems,5,23.8843,0.977296769618988,1.0,1.0,1.0,1.0
+dense_q_13978,dense,13978,correct details on premium account,edit_account,5,31.9236,0.9817856550216675,1.0,1.0,1.0,1.0
+dense_q_5029,dense,5029,wanna list the bloody accepted payment options how to do it,check_payment_methods,5,28.8844,0.8883929252624512,1.0,1.0,1.0,1.0
+dense_q_20524,dense,20524,i have to resdet my user pin code,recover_password,5,38.1325,0.9260652661323547,1.0,1.0,1.0,1.0
+dense_q_26273,dense,26273,I'm waiting for a refund of {{Refund Amount}} dollrs,track_refund,5,104.7289,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_9019,dense,9019,could I speak to a live agent?,contact_human_agent,5,30.7402,0.9857596158981323,1.0,1.0,1.0,1.0
+dense_q_24012,dense,24012,help changing to the standard account,switch_account,5,19.0579,0.9955175518989563,1.0,1.0,1.0,1.0
+dense_q_19420,dense,19420,I need help to earn several producst,place_order,5,18.2097,0.8602825403213501,1.0,1.0,1.0,1.0
+dense_q_24917,dense,24917,can I check the ETA of order {{Order Number}}?,track_order,5,30.1293,0.9931789636611938,1.0,1.0,1.0,1.0
+dense_q_22013,dense,22013,I am trying to leave fewedback about a service,review,5,25.277,0.631190836429596,1.0,1.0,1.0,1.0
+dense_q_5064,dense,5064,want assistance checking your available payment modalities,check_payment_methods,5,28.6887,0.9762172698974609,1.0,1.0,1.0,1.0
+dense_q_22592,dense,22592,wanna leave an opinion,review,5,446.3997,0.735664963722229,1.0,1.0,1.0,1.0
+dense_q_4937,dense,4937,I'm trying to check ur payment modalitise,check_payment_methods,5,25.021,0.9070746302604675,1.0,1.0,1.0,1.0
+dense_q_5170,dense,5170,check ur paymnt modalities,check_payment_methods,5,17.6238,0.8325623869895935,1.0,1.0,1.0,1.0
+dense_q_25747,dense,25747,how can i see the status of purchase {{Order Number}},track_order,5,23.4319,0.98199462890625,1.0,1.0,1.0,1.0
+dense_q_9121,dense,9121,i want help chatting with an assistant,contact_human_agent,5,40.156,0.9577656984329224,1.0,1.0,1.0,1.0
+dense_q_15472,dense,15472,wanna downlpad my bill from {{Person Name}},get_invoice,5,31.0802,0.8805645704269409,1.0,1.0,1.0,1.0
+dense_q_23947,dense,23947,where to change to the freemium account,switch_account,5,17.9328,0.9739134907722473,1.0,1.0,1.0,1.0
+dense_q_15554,dense,15554,send me bills from {{Person Name}},get_invoice,5,28.1735,1.0,1.0,1.0,1.0,1.0
+dense_q_17861,dense,17861,how can I subscribe to the newsletter?,newsletter_subscription,5,19.0062,0.9893447756767273,1.0,1.0,1.0,1.0
+dense_q_18551,dense,18551,i cannot pay want help to report errors with payments,payment_issue,5,25.2048,0.9353992342948914,1.0,1.0,1.0,1.0
+dense_q_1072,dense,1072,remove a product from purchase {{Order Number}},change_order,5,29.093,0.9970738291740417,1.0,1.0,1.0,1.0
+dense_q_3161,dense,3161,could uhelp me check the cancellation penalty,check_cancellation_fee,5,23.0277,0.9320473670959473,1.0,1.0,1.0,1.0
+dense_q_20802,dense,20802,how can i find information about my key recovery,recover_password,5,19.1753,0.8970942497253418,1.0,1.0,1.0,1.0
+dense_q_16003,dense,16003,can you help me ask for a rebate of money?,get_refund,5,24.7903,0.9649109840393066,1.0,1.0,1.0,1.0
+dense_q_26501,dense,26501,I am waiting for a compensation of  {{Currency Symbol}}{{Refund Amount}},track_refund,5,121.6495,1.000000238418579,1.0,1.0,1.0,1.0
+dense_q_2723,dense,2723,i have issues trying to edit my delivery address,change_shipping_address,5,29.6299,1.000000238418579,1.0,1.0,1.0,1.0
+dense_q_23007,dense,23007,where to submit a  different delivery address,set_up_shipping_address,5,18.0184,0.9748041033744812,1.0,1.0,1.0,1.0
+dense_q_1194,dense,1194,I want to change several products of order {{Order Number}},change_order,5,26.3128,0.9786397218704224,1.0,1.0,1.0,1.0
+dense_q_21157,dense,21157,is it possible to notify of a problem with a signup?,registration_problems,5,14.7722,0.9773118495941162,1.0,1.0,1.0,1.0
+dense_q_5466,dense,5466,how to check what payment options are available,check_payment_methods,5,23.7186,0.9779567122459412,1.0,1.0,1.0,1.0
+dense_q_15523,dense,15523,i cant find the bill #00108 will umail it to me,get_invoice,5,27.9325,0.9071899652481079,1.0,0.2,0.5,0.6309297535714575
+dense_q_3828,dense,3828,I am trying to see the fucking withdrawal charges,check_cancellation_fee,5,15.163,0.8608815670013428,1.0,1.0,1.0,1.0
+dense_q_22440,dense,22440,i want help to send feedback for ur services,review,5,16.189,0.9633327722549438,1.0,1.0,1.0,1.0
+dense_q_5401,dense,5401,how to list the allowed payment modalities?,check_payment_methods,5,15.7957,0.9810963273048401,1.0,1.0,1.0,1.0
+dense_q_3990,dense,3990,i want assistance to check the invoices from {{Person Name}},check_invoice,5,18.8184,0.9913781881332397,1.0,1.0,1.0,1.0
+dense_q_15703,dense,15703,I am calling to get my goddamn invoices from {{Person Name}},get_invoice,5,114.9982,0.9214400053024292,1.0,0.8,1.0,0.9558295932317544
+dense_q_12283,dense,12283,need to check what methods for delivery i can choose help me,delivery_options,5,27.7809,0.9770153760910034,1.0,1.0,1.0,1.0
+dense_q_9246,dense,9246,directing to operator,contact_human_agent,5,1172.8429,0.7868452668190002,1.0,1.0,1.0,1.0
+dense_q_7275,dense,7275,can you help me filing a complaiont?,complaint,5,27.7756,0.679236888885498,1.0,1.0,1.0,1.0
+dense_q_12307,dense,12307,where to see what shipment options I have?,delivery_options,5,42.0447,0.9927958250045776,1.0,1.0,1.0,1.0
+dense_q_6086,dense,6086,check under what circumstances can i request a reimbursement,check_refund_policy,5,21.3202,0.9735125303268433,1.0,1.0,1.0,1.0
+dense_q_12403,dense,12403,I need assistance to check what shipment options are there,delivery_options,5,24.7616,0.9763031601905823,1.0,1.0,1.0,1.0
+dense_q_5365,dense,5365,need assistance checking ur allowed payment options,check_payment_methods,5,37.552,0.9580576419830322,1.0,1.0,1.0,1.0
+dense_q_33,dense,33,i do not know how i can cancel purchase {{Order Number}},cancel_order,5,34.5199,0.9999998807907104,1.0,1.0,1.0,1.0
+dense_q_26606,dense,26606,i have got to track my refund,track_refund,5,29.5502,0.8939169645309448,1.0,1.0,1.0,1.0
+dense_q_11612,dense,11612,I want information about the termination of a {{Account Type}} account,delete_account,5,21.4715,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_24948,dense,24948,what do I need to do to see order {{Order Number}} status?,track_order,5,26.3202,0.9968461990356445,1.0,1.0,1.0,1.0
+dense_q_14125,dense,14125,editting details on platinum account,edit_account,5,31.9961,0.9893056154251099,1.0,1.0,1.0,1.0
+dense_q_4260,dense,4260,what do i have to do to check my invoice from {{Person Name}},check_invoice,5,101.7107,0.97737717628479,1.0,1.0,1.0,1.0
+dense_q_9571,dense,9571,I try to talk to a live agent,contact_human_agent,5,16.0332,0.9213209748268127,1.0,1.0,1.0,1.0
+dense_q_12719,dense,12719,help me to check what delivery methods I can choose,delivery_options,5,15.6615,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_14588,dense,14588,change details on {{Account Type}} account,edit_account,5,16.6926,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_20559,dense,20559,help to retrieve the password of my profile,recover_password,5,16.4126,0.9614796042442322,1.0,1.0,1.0,1.0
+dense_q_1965,dense,1965,I want help changing an article of purchase {{Order Number}},change_order,5,24.0461,0.9888309240341187,1.0,1.0,1.0,1.0
+dense_q_5291,dense,5291,wanna list  ur payment options could i get some help,check_payment_methods,5,32.6698,0.9271948337554932,1.0,1.0,1.0,1.0
+dense_q_12683,dense,12683,do you ship  to {{Delivery Country}}?,delivery_options,5,34.414,1.0,1.0,1.0,1.0,1.0
+dense_q_6993,dense,6993,I try to file a complaint against your company,complaint,5,25.0124,0.9665447473526001,1.0,1.0,1.0,1.0
+dense_q_14320,dense,14320,correcting information on platinum account,edit_account,5,18.7907,0.9891470670700073,1.0,1.0,1.0,1.0
+dense_q_7809,dense,7809,I need help to file a consumer reclamation,complaint,5,33.4589,0.9923789501190186,1.0,1.0,1.0,1.0
+dense_q_1570,dense,1570,change purchase {{Order Number}},change_order,5,19.6754,1.000000238418579,1.0,1.0,1.0,1.0
+dense_q_20925,dense,20925,need assistance reporting an error with a signup,registration_problems,5,14.8203,0.9760682582855225,1.0,1.0,1.0,1.0
+dense_q_6007,dense,6007,I am trying to check your money back guarantee,check_refund_policy,5,17.6075,0.9564675092697144,1.0,1.0,1.0,1.0
+dense_q_9199,dense,9199,how to speak with somebody ?,contact_human_agent,5,14.8291,0.9858988523483276,1.0,1.0,1.0,1.0
+dense_q_8915,dense,8915,can I talk to a person?,contact_human_agent,5,34.5121,0.9541836380958557,1.0,1.0,1.0,1.0
+dense_q_12541,dense,12541,is it possible to order from {{Delivery City}} ?,delivery_options,5,35.0686,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_23775,dense,23775,I have troubles setting up a new shipping address,set_up_shipping_address,5,16.3983,0.9824074506759644,1.0,1.0,1.0,1.0
+dense_q_17567,dense,17567,I have got to unsubscribe from your newsletter,newsletter_subscription,5,34.5463,0.9724162817001343,1.0,1.0,1.0,1.0
+dense_q_13276,dense,13276,I want to check how long it takes for the order to arrive,delivery_period,5,16.1473,0.9493372440338135,1.0,1.0,1.0,1.0
+dense_q_3019,dense,3019,I want help to see the termination charges,check_cancellation_fee,5,18.4347,1.0,1.0,1.0,1.0,1.0
+dense_q_26380,dense,26380,I expect an rebate of {{Refund Amount}} dollars,track_refund,5,34.5592,1.0,1.0,1.0,1.0,1.0
+dense_q_3667,dense,3667,can you help me check the termination charge?,check_cancellation_fee,5,15.4694,0.9741547703742981,1.0,1.0,1.0,1.0
+dense_q_6909,dense,6909,I try to see in what situations can I request to be refunded,check_refund_policy,5,27.2497,0.9635576605796814,1.0,1.0,1.0,1.0
+dense_q_21027,dense,21027,I do not know how to notify of a sign-up error,registration_problems,5,17.7515,0.9886893033981323,1.0,1.0,1.0,1.0
+dense_q_12657,dense,12657,how to see what delivery options you offer?,delivery_options,5,17.5395,0.9944067597389221,1.0,1.0,1.0,1.0
+dense_q_499,dense,499,I don't know what to do to cancel order {{Order Number}},cancel_order,5,28.3968,0.9926363229751587,1.0,1.0,1.0,1.0
+dense_q_1120,dense,1120,assistance changing order {{Order Number}},change_order,5,27.476,0.9663374423980713,1.0,1.0,1.0,1.0
+dense_q_18855,dense,18855,I need to report errors with payment,payment_issue,5,17.631,0.9935054779052734,1.0,1.0,1.0,1.0
+dense_q_837,dense,837,problems with cancelling purchase {{Order Number}},cancel_order,5,26.3089,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_2005,dense,2005,want support modifying the delivery address,change_shipping_address,5,27.31,0.9608303308486938,1.0,1.0,1.0,1.0
+dense_q_24304,dense,24304,I don't know what I have to do to change to the {{Account Type}} account,switch_account,5,43.6595,0.9977574348449707,1.0,1.0,1.0,1.0
+dense_q_25311,dense,25311,checking status of order,track_order,5,23.7103,0.9932786226272583,1.0,1.0,1.0,1.0
+dense_q_9952,dense,9952,open gold account for wife,create_account,5,43.4338,0.9851247072219849,1.0,1.0,1.0,1.0
+dense_q_25282,dense,25282,I can't check the current status of purchase {{Order Number}},track_order,5,32.1418,0.9999999403953552,1.0,1.0,1.0,1.0
+dense_q_7798,dense,7798,where can i lodge a reclamation against ur business,complaint,5,16.1418,0.987259566783905,1.0,1.0,1.0,1.0
+dense_q_22866,dense,22866,uhave a method to submit feedback for ur services,review,5,34.3338,0.9034020900726318,1.0,1.0,1.0,1.0
+dense_q_23697,dense,23697,need assistance entering my new shipping address,set_up_shipping_address,5,28.8766,0.9831608533859253,1.0,1.0,1.0,1.0
+dense_q_23095,dense,23095,help setting up my new delivery address,set_up_shipping_address,5,18.2478,0.9846087098121643,1.0,1.0,1.0,1.0
+dense_q_17927,dense,17927,I want help notifying of troubles with online paymnet,payment_issue,5,23.6302,0.8191028833389282,1.0,1.0,1.0,1.0
+dense_q_6261,dense,6261,I want to see under what circumstances can I request refunds,check_refund_policy,5,19.5564,0.9835312962532043,1.0,1.0,1.0,1.0
+dense_q_22701,dense,22701,I do not know how to submit some feedback for a servicd,review,5,36.4513,0.8484326601028442,1.0,1.0,1.0,1.0
+dense_q_12717,dense,12717,I want to check what methods for delivery you offer,delivery_options,5,19.6436,0.9685690402984619,1.0,1.0,1.0,1.0
+dense_q_8824,dense,8824,how can I check at what time I can call customer service?,contact_customer_service,5,35.1925,0.9952415227890015,1.0,1.0,1.0,1.0
+dense_q_560,dense,560,"I can't afford order {{Order Number}}, I need help to cancel it",cancel_order,5,29.6625,0.9915733933448792,1.0,1.0,1.0,1.0
+dense_q_12435,dense,12435,i want help to check the shipping methods,delivery_options,5,26.5083,0.9784151911735535,1.0,1.0,1.0,1.0
+dense_q_6414,dense,6414,help seeing in what cases can I ask for reimbursements,check_refund_policy,5,19.6649,0.9938615560531616,1.0,1.0,1.0,1.0
+dense_q_10116,dense,10116,can you help me create a freemium account?,create_account,5,27.0701,0.9957898855209351,1.0,1.0,1.0,1.0
+dense_q_3157,dense,3157,I don't know what I have to do to check the withdrawal fees,check_cancellation_fee,5,26.064,0.9879080057144165,1.0,1.0,1.0,1.0
+dense_q_18417,dense,18417,how can I report troubles with online payment?,payment_issue,5,26.8254,0.9857743978500366,1.0,1.0,1.0,1.0
+dense_q_12895,dense,12895,can i place an oeder from {{Delivery City}},delivery_options,5,17.0506,1.0,1.0,1.0,1.0,1.0
+dense_q_18077,dense,18077,is it possible to report troubles with payments?,payment_issue,5,13.7556,0.9251929521560669,1.0,1.0,1.0,1.0
+dense_q_4625,dense,4625,could uhelp me see my goddamn invoikces from {{Person Name}},check_invoice,5,24.0174,0.6886469721794128,1.0,0.8,1.0,0.9047172294870751
+dense_q_1154,dense,1154,how to change something of order {{Order Number}},change_order,5,27.2207,0.9898368120193481,1.0,1.0,1.0,1.0
+dense_q_13943,dense,13943,changing information on {{Account Category}} account,edit_account,5,25.4091,1.000000238418579,1.0,1.0,1.0,1.0
+dense_q_26252,dense,26252,help to see the status of my rebate,track_refund,5,21.6535,0.9774790406227112,1.0,1.0,1.0,1.0
+dense_q_6988,dense,6988,need to file a bloody consumer reclamation how can i do it,complaint,5,26.6432,0.9194319248199463,1.0,1.0,1.0,1.0
+dense_q_10276,dense,10276,I need help to open a standard account,create_account,5,19.0548,0.9816874861717224,1.0,1.0,1.0,1.0
+dense_q_9214,dense,9214,I do not know what I have to do to speak with an operator,contact_human_agent,5,25.6353,0.9934348464012146,1.0,1.0,1.0,1.0
+dense_q_21026,dense,21026,i cannot notify of a problem with a sign-up,registration_problems,5,23.0638,0.9547587633132935,1.0,1.0,1.0,1.0
+dense_q_13154,dense,13154,I have to check how soon can I expect the purchase,delivery_period,5,26.4086,0.9776304364204407,1.0,1.0,1.0,1.0
+dense_q_7677,dense,7677,i need help to lodge a customer claim agaisnt ur business,complaint,5,24.9058,0.9273388385772705,1.0,1.0,1.0,1.0
+dense_q_9931,dense,9931,is it possible to create a freemium account?,create_account,5,21.833,0.9263542890548706,1.0,1.0,1.0,1.0
+dense_q_10569,dense,10569,I do not know what to do to open a {{Account Category}} account,create_account,5,25.1864,1.0,1.0,1.0,1.0,1.0
+dense_q_17696,dense,17696,"I want to receive your newsletter, how can I do it?",newsletter_subscription,5,20.0877,0.974878191947937,1.0,1.0,1.0,1.0
+dense_q_25016,dense,25016,wana check the ETA of order {{Order Number}} will ya help me,track_order,5,18.3827,0.9392424821853638,1.0,1.0,1.0,1.0
+dense_q_8362,dense,8362,help checking what hours I can call customer service,contact_customer_service,5,15.8637,0.9885963201522827,1.0,1.0,1.0,1.0
+dense_q_4568,dense,4568,I need help giving a quick look at the bill #00108,check_invoice,5,15.8809,0.9878358244895935,1.0,1.0,1.0,1.0
+dense_q_3876,dense,3876,can you help me see the damn withdrawal charge?,check_cancellation_fee,5,13.3056,0.9367174506187439,1.0,1.0,1.0,1.0
+dense_q_1398,dense,1398,edit purchase {{Order Number}},change_order,5,22.5722,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_4894,dense,4894,i want help taking a quick look at the bills from {{Person Name}},check_invoice,5,13.7457,0.9836046695709229,1.0,1.0,1.0,1.0
+dense_q_9754,dense,9754,i dont know what i need to do to speak to a person,contact_human_agent,5,13.3869,0.9819058775901794,1.0,1.0,1.0,1.0
+dense_q_9628,dense,9628,I do not know what I need to do to talk with an assistant,contact_human_agent,5,13.1201,0.9920014142990112,1.0,1.0,1.0,1.0
+dense_q_19903,dense,19903,have a question about the lost pass,recover_password,5,25.6844,0.9861069917678833,1.0,1.0,1.0,1.0
+dense_q_15164,dense,15164,could i get the damn invoice from {{Person Name}},get_invoice,5,24.9772,0.9487062692642212,1.0,1.0,1.0,1.0
+dense_q_18371,dense,18371,i need help to inform of troubls with payment,payment_issue,5,30.4845,0.8945978283882141,1.0,1.0,1.0,1.0
+dense_q_15194,dense,15194,i want help getting my bills from {{Person Name}},get_invoice,5,18.2235,0.9857527613639832,1.0,1.0,1.0,1.0
+dense_q_11449,dense,11449,i dont know what i need to do to delete a {{Account Category}} account,delete_account,5,34.988,0.9944919347763062,1.0,1.0,1.0,1.0
+dense_q_6204,dense,6204,help me seeing in what cases can I ask for refunds,check_refund_policy,5,18.9693,0.991508960723877,1.0,1.0,1.0,1.0
+dense_q_18701,dense,18701,I don't knpw how to report payment issues,payment_issue,5,27.8308,0.8905155658721924,1.0,1.0,1.0,1.0
+dense_q_14352,dense,14352,editing details on freemium account,edit_account,5,33.347,0.9814216494560242,1.0,1.0,1.0,1.0
+dense_q_16002,dense,16002,help to ask for a restitution of money,get_refund,5,26.8125,0.9391130208969116,1.0,1.0,1.0,1.0
+dense_q_10064,dense,10064,could you help me creating a new bloody freemium account?,create_account,5,19.1597,0.905717134475708,1.0,1.0,1.0,1.0
+dense_q_18633,dense,18633,report problems with payment,payment_issue,5,35.8983,0.9885735511779785,1.0,1.0,1.0,1.0
+dense_q_7803,dense,7803,want assistance making a claim against ur company,complaint,5,26.4515,0.9828317165374756,1.0,1.0,1.0,1.0
+dense_q_21416,dense,21416,report issues creating user,registration_problems,5,16.662,0.981163740158081,1.0,1.0,1.0,1.0
+dense_q_13673,dense,13673,i dont know how to see how soon can i expect my item,delivery_period,5,28.6454,0.9842520952224731,1.0,1.0,1.0,1.0
+dense_q_25140,dense,25140,i cant see the current status of purchase {{Order Number}},track_order,5,26.4408,0.9892568588256836,1.0,1.0,1.0,1.0
+dense_q_5410,dense,5410,I have to see your allowed payment methods,check_payment_methods,5,19.3682,0.9520492553710938,1.0,1.0,1.0,1.0
+dense_q_17613,dense,17613,need help unsubscribing from ur newsletter,newsletter_subscription,5,18.4075,0.9913672208786011,1.0,1.0,1.0,1.0
+dense_q_15321,dense,15321,i want help downloading  my invoice from {{Person Name}},get_invoice,5,30.072,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_19711,dense,19711,I want assistance ordering an article,place_order,5,17.0363,0.9471443891525269,1.0,1.0,1.0,1.0
+dense_q_8958,dense,8958,want assistance talking with somebody,contact_human_agent,5,31.7772,0.9751907587051392,1.0,1.0,1.0,1.0
+dense_q_24110,dense,24110,wanna switch to the platinum accoun,switch_account,5,31.5489,0.8023580312728882,1.0,0.6,1.0,0.9060254355346823
+dense_q_7800,dense,7800,I call to lodge a customer complaint against your company,complaint,5,28.5615,0.9182794094085693,1.0,1.0,1.0,1.0
+dense_q_26360,dense,26360,I do not know how to check the rebate current status,track_refund,5,35.9522,0.9780935645103455,1.0,1.0,1.0,1.0
+dense_q_10099,dense,10099,open another pro account,create_account,5,24.6239,0.9009482860565186,1.0,1.0,1.0,1.0
+dense_q_13471,dense,13471,could you help me to see how soon can I expect the product?,delivery_period,5,26.5942,0.997014045715332,1.0,1.0,1.0,1.0
+dense_q_7293,dense,7293,want assistance to make a reclamation against ur business,complaint,5,38.3189,0.9803484082221985,1.0,1.0,1.0,1.0
+dense_q_24764,dense,24764,I do not know how I can switch to tbe {{Account Category}} account,switch_account,5,40.9238,0.8812829852104187,1.0,1.0,1.0,1.0
+dense_q_16415,dense,16415,can you help me getting a reimbursement?,get_refund,5,27.3318,0.9331042766571045,1.0,1.0,1.0,1.0
+dense_q_6059,dense,6059,need help to check in which cases can i ask to be refunded,check_refund_policy,5,50.288,0.9956997632980347,1.0,1.0,1.0,1.0
+dense_q_26525,dense,26525,I am waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund,5,115.0818,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_5861,dense,5861,help me check ur allowed payment modalities,check_payment_methods,5,28.3573,0.9627888798713684,1.0,1.0,1.0,1.0
+dense_q_18466,dense,18466,how could I inform of issues with payment?,payment_issue,5,17.423,0.9808856248855591,1.0,1.0,1.0,1.0
+dense_q_8271,dense,8271,how can i contact customer support,contact_customer_service,5,29.2184,0.9446495175361633,1.0,1.0,1.0,1.0
+dense_q_3008,dense,3008,is it possible to check the withdrawal charges,check_cancellation_fee,5,34.9258,0.962519645690918,1.0,1.0,1.0,1.0
+dense_q_11852,dense,11852,I need assistance to delete my {{Account Type}} account,delete_account,5,26.6955,0.9971716403961182,1.0,1.0,1.0,1.0
+dense_q_10253,dense,10253,opening new {{Account Category}} account for daughter,create_account,5,28.7761,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_11315,dense,11315,find information about the deletion of a {{Account Type}} account,delete_account,5,29.5527,0.9535359144210815,1.0,1.0,1.0,1.0
+dense_q_6870,dense,6870,could I see in which cases can I ask to be refunded?,check_refund_policy,5,17.7913,0.989467203617096,1.0,1.0,1.0,1.0
+dense_q_11762,dense,11762,I do not know what to do to close the {{Account Category}} account,delete_account,5,37.3196,1.000000238418579,1.0,1.0,1.0,1.0
+dense_q_14964,dense,14964,need to get the invoices from {{Person Name}},get_invoice,5,18.2832,0.989488959312439,1.0,1.0,1.0,1.0
+dense_q_20808,dense,20808,I have a question about the lost pass,recover_password,5,16.2927,0.9861071109771729,1.0,1.0,1.0,1.0
+dense_q_17501,dense,17501,unsubscribe to your damn company newsletter,newsletter_subscription,5,25.572,0.9481600522994995,1.0,1.0,1.0,1.0
+dense_q_21121,dense,21121,I am experiencing an problem registering,registration_problems,5,15.0613,0.9101916551589966,1.0,1.0,1.0,1.0
+dense_q_23288,dense,23288,where to set up my new shipping address?,set_up_shipping_address,5,28.542,0.9392319917678833,1.0,1.0,1.0,1.0
+dense_q_20221,dense,20221,want help restoring the pin code of my user,recover_password,5,20.3319,0.9731844663619995,1.0,1.0,1.0,1.0
+dense_q_22741,dense,22741,I am trying to leave feedback for a service,review,5,16.576,0.9881733655929565,1.0,1.0,1.0,1.0
+dense_q_2867,dense,2867,need assistance with a address update,change_shipping_address,5,16.1988,0.9747657179832458,1.0,1.0,1.0,1.0
+dense_q_15215,dense,15215,I'm trying to get my damn bills from {{Person Name}},get_invoice,5,16.2984,0.9439315795898438,1.0,1.0,1.0,1.0
+dense_q_1971,dense,1971,remove a damn product from order {{Order Number}},change_order,5,35.6356,0.9630948901176453,1.0,1.0,1.0,1.0
+dense_q_840,dense,840,help with cancelling purchase {{Order Number}},cancel_order,5,24.0193,1.0,1.0,1.0,1.0,1.0
+dense_q_26377,dense,26377,showing refund status,track_refund,5,22.9241,0.9816852807998657,1.0,1.0,1.0,1.0
+dense_q_7784,dense,7784,"I am unhappy with your work, how do I lodge a reclamation?",complaint,5,35.3864,0.867426335811615,1.0,1.0,1.0,1.0
+dense_q_14304,dense,14304,editing details on {{Account Type}} account,edit_account,5,15.0509,1.0,1.0,1.0,1.0,1.0
+dense_q_2907,dense,2907,I want support modifying the shipping address,change_shipping_address,5,34.6819,0.9915574193000793,1.0,1.0,1.0,1.0
+dense_q_364,dense,364,I can no longer afford purchase {{Order Number}},cancel_order,5,17.0741,0.9999999403953552,1.0,1.0,1.0,1.0
+dense_q_19540,dense,19540,i dont know how to earn a product,place_order,5,18.4226,0.986068069934845,1.0,1.0,1.0,1.0
+dense_q_13179,dense,13179,i want assistance to see how soon can i expect the item,delivery_period,5,20.4275,0.9738777279853821,1.0,1.0,1.0,1.0
+dense_q_17187,dense,17187,how can i cancel my subscription to ur corporate newsletter,newsletter_subscription,5,17.7635,0.9970747232437134,1.0,1.0,1.0,1.0
+dense_q_3642,dense,3642,where doi see the withdrawal penalties,check_cancellation_fee,5,29.36,0.848251223564148,1.0,1.0,1.0,1.0
+dense_q_10613,dense,10613,open freemium account,create_account,5,15.6756,0.9801850318908691,1.0,0.6,1.0,0.9469024295259745
+dense_q_5368,dense,5368,I want assistance checking the available payment options,check_payment_methods,5,29.786,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_3127,dense,3127,i try to check the cancellation fee,check_cancellation_fee,5,15.6998,0.9292658567428589,1.0,1.0,1.0,1.0
+dense_q_25505,dense,25505,"I want to see the status of order {{Order Number}}, I need help",track_order,5,25.9585,0.9874961376190186,1.0,1.0,1.0,1.0
+dense_q_12115,dense,12115,can ya help me to see what shipment options i can choose,delivery_options,5,27.8418,0.9632706046104431,1.0,1.0,1.0,1.0
+dense_q_11815,dense,11815,i no lomger need my damn gold account can uhelp me delete it,delete_account,5,15.4109,0.8446127772331238,1.0,1.0,1.0,1.0
+dense_q_6458,dense,6458,i have to check in which cases can i ask for a reimbursement,check_refund_policy,5,28.4293,0.9932148456573486,1.0,1.0,1.0,1.0
+dense_q_23578,dense,23578,troubles setting up a goddamn delivery address,set_up_shipping_address,5,18.9465,0.9259247779846191,1.0,1.0,1.0,1.0
+dense_q_2607,dense,2607,i have an issue trying to update my shipping address,change_shipping_address,5,31.711,0.9929463863372803,1.0,1.0,1.0,1.0
+dense_q_19311,dense,19311,need help to earn an item,place_order,5,20.4714,0.960605263710022,1.0,1.0,1.0,1.0
+dense_q_8601,dense,8601,could you help me to speak to customer support?,contact_customer_service,5,16.3402,0.9945955872535706,1.0,1.0,1.0,1.0
+dense_q_4254,dense,4254,i have lost my bill from {{Person Name}} find it for me,check_invoice,5,16.9452,0.9075620174407959,1.0,1.0,1.0,1.0
+dense_q_5436,dense,5436,I would like to list the payment modalities,check_payment_methods,5,23.6226,0.9711803793907166,1.0,1.0,1.0,1.0
+dense_q_15160,dense,15160,i dont know  what i have to do to download the bill #37777,get_invoice,5,25.0287,0.9920578002929688,1.0,1.0,1.0,1.0
+dense_q_7889,dense,7889,can uhelp me to make a complaint againsy ur business,complaint,5,35.4715,0.8910608887672424,1.0,1.0,1.0,1.0
+dense_q_23265,dense,23265,is it possible to set up the secondary shipping address,set_up_shipping_address,5,17.4409,0.9325844049453735,1.0,1.0,1.0,1.0
+dense_q_11672,dense,11672,i have problems with the deletion of my premium account,delete_account,5,21.1467,0.9762786626815796,1.0,1.0,1.0,1.0
+dense_q_264,dense,264,help me cancel purchase {{Order Number}},cancel_order,5,14.3553,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_247,dense,247,I cannot afford order {{Order Number}},cancel_order,5,13.6845,1.0,1.0,1.0,1.0,1.0
+dense_q_22537,dense,22537,is there a seection to send my feedback for ur services,review,5,14.7597,0.9543349146842957,1.0,1.0,1.0,1.0
+dense_q_20037,dense,20037,can you help me resetting the pwd of my user?,recover_password,5,16.4363,0.9785206913948059,1.0,1.0,1.0,1.0
+dense_q_23631,dense,23631,there is an issue submitting a deilvery address,set_up_shipping_address,5,27.3238,0.8058108687400818,1.0,0.6,0.5,0.6797310500037655
+dense_q_18450,dense,18450,"I have to inform of damn payment errors, how can I do it?",payment_issue,5,24.2768,0.9400516152381897,1.0,1.0,1.0,1.0
+dense_q_25984,dense,25984,help to see if there is anything wrong with the refund,track_refund,5,17.3703,0.9770040512084961,1.0,1.0,1.0,1.0
+dense_q_23312,dense,23312,i have problems setting the new delivery address up,set_up_shipping_address,5,24.6046,0.9919618368148804,1.0,1.0,1.0,1.0
+dense_q_3253,dense,3253,I am trying to check the withdrawal charge,check_cancellation_fee,5,26.8172,0.9847685694694519,1.0,1.0,1.0,1.0
+dense_q_10358,dense,10358,what do i have to do to createa premium account,create_account,5,17.1606,0.9493171572685242,1.0,1.0,1.0,1.0
+dense_q_23957,dense,23957,use freemium account,switch_account,5,23.4797,0.9907473921775818,1.0,0.6,1.0,0.9674679834891693
+dense_q_20659,dense,20659,help to retrieve my user PIN,recover_password,5,25.9336,0.9937033653259277,1.0,1.0,1.0,1.0
+dense_q_6586,dense,6586,I need help checking how long rdimbursements take,check_refund_policy,5,30.1891,0.6842215061187744,1.0,0.8,0.5,0.7606395682357036
+dense_q_24435,dense,24435,where can i switch to  the {{Account Category}} account,switch_account,5,32.344,0.9959684014320374,1.0,1.0,1.0,1.0
+dense_q_18125,dense,18125,can ya help me informing  of problems with online payment,payment_issue,5,25.6271,0.9734946489334106,1.0,1.0,1.0,1.0
+dense_q_17667,dense,17667,help unsubscribing from your newsletter,newsletter_subscription,5,19.6571,0.9800289273262024,1.0,1.0,1.0,1.0
+dense_q_24637,dense,24637,change to the {{Account Type}} account,switch_account,5,18.0883,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_893,dense,893,i do not know how to cancel purchase {{Order Number}},cancel_order,5,24.289,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_10680,dense,10680,new {{Account Category}} account for wife,create_account,5,14.7626,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_9572,dense,9572,"I don't understand you, help talking to a goddamn person",contact_human_agent,5,16.258,0.8688873648643494,1.0,1.0,1.0,1.0
+dense_q_10806,dense,10806,opening new standard account,create_account,5,17.601,0.9362578392028809,1.0,1.0,1.0,1.0
+dense_q_21719,dense,21719,"I need to report a fucking registration error, help me",registration_problems,5,26.2181,0.9585123062133789,1.0,1.0,1.0,1.0
+dense_q_493,dense,493,how can I cancel order {{Order Number}}?,cancel_order,5,18.7841,0.9957370758056641,1.0,1.0,1.0,1.0
+dense_q_26392,dense,26392,I'm waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund,5,110.3699,1.0,1.0,1.0,1.0,1.0
+dense_q_20325,dense,20325,i have to reset the pin code of my profile,recover_password,5,25.7262,0.9742647409439087,1.0,1.0,1.0,1.0
+dense_q_12547,dense,12547,is it possibleto place an order from {{Delivery City}},delivery_options,5,16.5893,1.0,1.0,1.0,1.0,1.0
+dense_q_12302,dense,12302,what are the available shipment options?,delivery_options,5,25.6627,0.9653189778327942,1.0,1.0,1.0,1.0
+dense_q_14349,dense,14349,edit details on freemium account,edit_account,5,27.9264,0.9807950258255005,1.0,1.0,1.0,1.0
+dense_q_23170,dense,23170,is it possible to enter another shipping address,set_up_shipping_address,5,28.0162,0.8826849460601807,1.0,1.0,1.0,1.0
+dense_q_17730,dense,17730,"I have to receive your newsletter, can you help me?",newsletter_subscription,5,31.5498,0.9902545213699341,1.0,1.0,1.0,1.0
+dense_q_24019,dense,24019,help using the {{Account Category}} account,switch_account,5,30.9153,0.9999999403953552,1.0,1.0,1.0,1.0
+dense_q_10683,dense,10683,I need an {{Account Type}} account,create_account,5,22.4859,0.999657928943634,1.0,1.0,1.0,1.0
+dense_q_19643,dense,19643,is it possible to acquire an article?,place_order,5,21.2792,0.8961505889892578,1.0,1.0,1.0,1.0
+dense_q_7331,dense,7331,help to make a consumer claim against your company,complaint,5,28.1924,0.9874753355979919,1.0,1.0,1.0,1.0
+dense_q_15216,dense,15216,i try to get my invoices from {{Person Name}},get_invoice,5,30.5515,0.9750836491584778,1.0,1.0,1.0,1.0
+dense_q_16712,dense,16712,how do I get a rebate?,get_refund,5,15.6312,0.9364045858383179,1.0,1.0,1.0,1.0
+dense_q_2460,dense,2460,i have an issue editing my address,change_shipping_address,5,15.0371,0.9882336854934692,1.0,1.0,1.0,1.0
+dense_q_8736,dense,8736,i have gog to speak to customer support,contact_customer_service,5,16.2911,0.7721885442733765,1.0,1.0,1.0,1.0
+dense_q_9696,dense,9696,could ya help me to speak wqith somebody,contact_human_agent,5,20.8163,0.7474320530891418,1.0,1.0,1.0,1.0
+dense_q_4103,dense,4103,i want assistance taking a quick look at the invoice #00108,check_invoice,5,41.3632,0.9933732748031616,1.0,1.0,1.0,1.0
+dense_q_11979,dense,11979,do you deliver to {{Delivery Country}}?,delivery_options,5,25.5826,1.000000238418579,1.0,1.0,1.0,1.0
+dense_q_6448,dense,6448,I try to check how long reimbursements usually take,check_refund_policy,5,17.0733,0.9713118672370911,1.0,1.0,1.0,1.0
+dense_q_9101,dense,9101,what do I have to do to chat with an operator?,contact_human_agent,5,17.4325,0.9866546392440796,1.0,1.0,1.0,1.0
+dense_q_9064,dense,9064,can you help me contact somebody?,contact_human_agent,5,28.0721,0.9857993125915527,1.0,1.0,1.0,1.0
+dense_q_8322,dense,8322,I want help seeing what hours I can reach customer service,contact_customer_service,5,17.8361,0.9868178367614746,1.0,1.0,1.0,1.0
+dense_q_2393,dense,2393,I try to edit the address,change_shipping_address,5,39.058,0.9533300995826721,1.0,1.0,1.0,1.0
+dense_q_6341,dense,6341,I would like to see in which cases can I ask for refunds,check_refund_policy,5,28.9731,0.9933416843414307,1.0,1.0,1.0,1.0
+dense_q_11290,dense,11290,i have to delete the fucking freemium account i need help,delete_account,5,33.4093,0.9255481958389282,1.0,1.0,1.0,1.0
+dense_q_7148,dense,7148,help filing a customer reclamation against ur company,complaint,5,31.4545,0.9451209306716919,1.0,1.0,1.0,1.0
+dense_q_9298,dense,9298,i try to speak with someone,contact_human_agent,5,21.4459,1.0,1.0,1.0,1.0,1.0
+dense_q_2332,dense,2332,how can i find information about correcting the address,change_shipping_address,5,27.9243,0.9638153314590454,1.0,1.0,1.0,1.0
+dense_q_11540,dense,11540,I want assistance to delete a bloody gold account,delete_account,5,18.0782,0.9431030750274658,1.0,1.0,1.0,1.0
+dense_q_8041,dense,8041,how can i talk wiht customer service,contact_customer_service,5,18.6323,0.8856185078620911,1.0,1.0,1.0,1.0
+dense_q_13470,dense,13470,I call to see when my parcel is going to arrive,delivery_period,5,14.4394,0.9116684794425964,1.0,1.0,1.0,1.0
+dense_q_8172,dense,8172,I need to talk with customer service,contact_customer_service,5,15.6253,0.9418522119522095,1.0,1.0,1.0,1.0
+dense_q_353,dense,353,I need help canceling purchase {{Order Number}},cancel_order,5,28.3025,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_16518,dense,16518,i want assistance to get rebates of my money,get_refund,5,27.8133,0.9886006116867065,1.0,1.0,1.0,1.0
+dense_q_17733,dense,17733,where to cancel the newsletter subscription ?,newsletter_subscription,5,23.8071,0.9860848188400269,1.0,1.0,1.0,1.0
+dense_q_9490,dense,9490,I want assistance to contact an operator,contact_human_agent,5,17.1991,0.9750784039497375,1.0,1.0,1.0,1.0
+dense_q_20138,dense,20138,wany help to reset the access key of my account,recover_password,5,16.5629,0.9570356011390686,1.0,1.0,1.0,1.0
+dense_q_20341,dense,20341,where do I restore the password of my account?,recover_password,5,17.7374,0.9602751731872559,1.0,1.0,1.0,1.0
+dense_q_14096,dense,14096,updating data on standard account,edit_account,5,31.3247,0.9894301295280457,1.0,1.0,1.0,1.0
+dense_q_15047,dense,15047,i need assistance to get my invoices  from {{Person Name}},get_invoice,5,27.5921,0.9944034814834595,1.0,1.0,1.0,1.0
+dense_q_13638,dense,13638,I try to see when will my product arrive,delivery_period,5,26.5732,0.9717438220977783,1.0,1.0,1.0,1.0
+dense_q_22835,dense,22835,i call to submit feedback about ur services,review,5,32.0113,0.9838876724243164,1.0,1.0,1.0,1.0
+dense_q_19919,dense,19919,I cannot reset my user profile PIN,recover_password,5,17.8084,0.9611834287643433,1.0,1.0,1.0,1.0
+dense_q_26530,dense,26530,I try to see if there are any news on my reimbursement,track_refund,5,33.848,0.9597205519676208,1.0,1.0,1.0,1.0
+dense_q_24180,dense,24180,I need help changing to the platinum account,switch_account,5,20.4509,0.9862403869628906,1.0,1.0,1.0,1.0
+dense_q_3210,dense,3210,I have to check the cancellation charge,check_cancellation_fee,5,16.9955,0.9340639114379883,1.0,1.0,1.0,1.0
+dense_q_18900,dense,18900,i do not know what i need to do to buy several items,place_order,5,30.6649,0.9872034192085266,1.0,1.0,1.0,1.0
+dense_q_9681,dense,9681,can you help me speaking with somebody?,contact_human_agent,5,18.099,0.9906057119369507,1.0,1.0,1.0,1.0
+dense_q_25086,dense,25086,seeing order {{Order Number}} current status,track_order,5,28.5801,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_21158,dense,21158,I want to inform of an error with a damn signup,registration_problems,5,35.7057,0.9520362615585327,1.0,1.0,1.0,1.0
+dense_q_16239,dense,16239,where can I demand a refund?,get_refund,5,18.352,0.8982511758804321,1.0,1.0,1.0,1.0
+dense_q_8514,dense,8514,I do not know what to do to speak with customer service,contact_customer_service,5,13.9964,0.991066575050354,1.0,1.0,1.0,1.0
+dense_q_1350,dense,1350,i have to delete som items from purchase {{Order Number}},change_order,5,13.3441,0.925133228302002,1.0,1.0,1.0,1.0
+dense_q_10102,dense,10102,I need information about opening premium accounts,create_account,5,22.2305,0.9311723709106445,1.0,1.0,1.0,1.0
+dense_q_21883,dense,21883,where to notify of an error with signup?,registration_problems,5,23.82,0.9906234741210938,1.0,1.0,1.0,1.0
+dense_q_21922,dense,21922,i want assistance to leave feedback aboutur products,review,5,26.0292,0.9545235633850098,1.0,1.0,1.0,1.0
+dense_q_5593,dense,5593,help to see ur accepted payment emthods,check_payment_methods,5,16.369,0.9007018804550171,1.0,1.0,1.0,1.0
+dense_q_21441,dense,21441,where to reoprt errors with signup?,registration_problems,5,17.8077,0.9401584267616272,1.0,1.0,1.0,1.0
+dense_q_3662,dense,3662,see early exit penalty,check_cancellation_fee,5,37.6012,0.9710662364959717,1.0,1.0,1.0,1.0
+dense_q_1325,dense,1325,how do ii modify order {{Order Number}},change_order,5,16.901,0.8798012733459473,1.0,1.0,1.0,1.0
+dense_q_17385,dense,17385,I want to subscribe to the newsletter,newsletter_subscription,5,24.4385,0.9649125337600708,1.0,1.0,1.0,1.0
+dense_q_6997,dense,6997,I don't know what to do to file a claim against your company,complaint,5,24.5616,0.9091694951057434,1.0,1.0,1.0,1.0
+dense_q_16508,dense,16508,can you help me to ask for a reimbursement of my money?,get_refund,5,25.3746,0.9423378705978394,1.0,1.0,1.0,1.0
+dense_q_15925,dense,15925,when can I expect a refund,get_refund,5,15.4343,0.8561575412750244,1.0,1.0,1.0,1.0
+dense_q_20088,dense,20088,csn ya help me reset the password of my account,recover_password,5,15.364,0.7839681506156921,1.0,1.0,1.0,1.0
+dense_q_2386,dense,2386,"I have entered a wrong goddamn address, how could I edit it?",change_shipping_address,5,22.6492,0.9428175687789917,1.0,1.0,1.0,1.0
+dense_q_13714,dense,13714,where could I see when will my purchase arrive?,delivery_period,5,24.0953,0.9310577511787415,1.0,1.0,1.0,1.0
+dense_q_26089,dense,26089,I am trying to check my compensation current status,track_refund,5,26.062,0.9484643340110779,1.0,1.0,1.0,1.0
+dense_q_12993,dense,12993,what do I need to do to see how soon can I expect my item?,delivery_period,5,21.6057,0.9728047251701355,1.0,1.0,1.0,1.0
+dense_q_1696,dense,1696,i want help adding an item to purchase {{Order Number}},change_order,5,14.9588,0.9948329925537109,1.0,1.0,1.0,1.0
+dense_q_17760,dense,17760,receive company newsletter,newsletter_subscription,5,38.4427,0.9235731363296509,1.0,1.0,1.0,1.0
+dense_q_1175,dense,1175,help me to change several products of purchase {{Order Number}},change_order,5,15.6872,0.9408330917358398,1.0,1.0,1.0,1.0
+dense_q_10780,dense,10780,tell me more about opening gold accounts,create_account,5,23.9673,0.9289337396621704,1.0,1.0,1.0,1.0
+dense_q_6217,dense,6217,inwhat situations can I ask to be reimbursed?,check_refund_policy,5,16.8479,0.9751697182655334,1.0,1.0,1.0,1.0
+dense_q_17758,dense,17758,want help to receive ur company newsletter,newsletter_subscription,5,14.9216,0.9935506582260132,1.0,1.0,1.0,1.0
+dense_q_23686,dense,23686,assistance to enter my shipping address,set_up_shipping_address,5,24.0306,0.9530436992645264,1.0,1.0,1.0,1.0
+dense_q_23479,dense,23479,I do not know how I can set up my shipping address,set_up_shipping_address,5,27.3363,0.9797676205635071,1.0,1.0,1.0,1.0
+dense_q_16827,dense,16827,what do I have to do to demand reimbursements of my money?,get_refund,5,17.6406,0.9894048571586609,1.0,1.0,1.0,1.0
+dense_q_3387,dense,3387,"I want to check the early exit fee, could you help me?",check_cancellation_fee,5,14.6878,0.972313642501831,1.0,1.0,1.0,1.0
+dense_q_7509,dense,7509,I don't know what to do to file a consumer claim,complaint,5,27.7715,0.9522645473480225,1.0,1.0,1.0,1.0
+dense_q_12081,dense,12081,I am calling to see what delivery methods you offer,delivery_options,5,15.9975,0.9423661231994629,1.0,1.0,1.0,1.0
+dense_q_18915,dense,18915,where to pucrhase some items,place_order,5,30.3208,0.7051877379417419,1.0,1.0,1.0,1.0
+dense_q_17172,dense,17172,where to sign up to the newsleter,newsletter_subscription,5,25.0305,0.8459286689758301,1.0,1.0,1.0,1.0
+dense_q_12981,dense,12981,how can I see how son can I expect my package?,delivery_period,5,19.4964,0.7968438863754272,1.0,1.0,1.0,1.0
+dense_q_6325,dense,6325,can i check under which circumstances can i request a refund,check_refund_policy,5,17.849,0.9841602444648743,1.0,1.0,1.0,1.0
+dense_q_19132,dense,19132,how to shop a product?,place_order,5,14.3837,0.9467266798019409,1.0,1.0,1.0,1.0
+dense_q_19481,dense,19481,I need help shopping several of your item,place_order,5,15.4173,0.9621613025665283,1.0,1.0,1.0,1.0
+dense_q_23090,dense,23090,need assistance submitting a shipping address,set_up_shipping_address,5,16.8369,0.9721720218658447,1.0,1.0,1.0,1.0
+dense_q_5975,dense,5975,show me in which situations can I ask to be reimbursed,check_refund_policy,5,25.1016,0.9742386341094971,1.0,1.0,1.0,1.0
+dense_q_25283,dense,25283,where do I check my last purchase estimated time of arrival?,track_order,5,17.9719,0.7950540781021118,0.0,0.0,0.0,0.0
+dense_q_17297,dense,17297,what do I have to do to receive your company newsletter?,newsletter_subscription,5,18.1068,0.9526076912879944,1.0,1.0,1.0,1.0
+dense_q_3153,dense,3153,where to see the early termination fees?,check_cancellation_fee,5,17.443,0.9891358017921448,1.0,1.0,1.0,1.0
+dense_q_18327,dense,18327,can ya help me to notify of an error with online payment,payment_issue,5,17.7323,0.9689255356788635,1.0,1.0,1.0,1.0
+dense_q_10493,dense,10493,create new premium account for daughter,create_account,5,17.6012,0.9947424530982971,1.0,1.0,1.0,1.0
+dense_q_17369,dense,17369,i dont know how to sign up to the newsletter,newsletter_subscription,5,35.2143,0.9936941862106323,1.0,1.0,1.0,1.0
+dense_q_23621,dense,23621,"I have to enter the shipping address, how do I do it?",set_up_shipping_address,5,18.3019,0.956238865852356,1.0,1.0,1.0,1.0
+dense_q_4702,dense,4702,I need assistance giving a quick look at bill #37777,check_invoice,5,15.0788,0.9870516061782837,1.0,1.0,1.0,1.0
+dense_q_8530,dense,8530,i dont know what to do to talk to customer support,contact_customer_service,5,21.1835,0.9927026629447937,1.0,1.0,1.0,1.0
+dense_q_17296,dense,17296,cancel the subscription to your corporate newsletter,newsletter_subscription,5,26.0274,0.9919227957725525,1.0,1.0,1.0,1.0
+dense_q_85,dense,85,what do I have to do to cancel order {{Order Number}}?,cancel_order,5,29.226,1.000000238418579,1.0,1.0,1.0,1.0
+dense_q_11805,dense,11805,"I do not use the damn gold account, I am trying to close it",delete_account,5,34.0524,0.9168422222137451,1.0,1.0,1.0,1.0
+dense_q_802,dense,802,need help to cancel purchase {{Order Number}},cancel_order,5,14.9495,1.0,1.0,1.0,1.0,1.0
+dense_q_25477,dense,25477,need help seeing the eta of the purchase {{Order Number}},track_order,5,16.3723,0.9973773956298828,1.0,1.0,1.0,1.0
+dense_q_12220,dense,12220,deliverids to {{Delivery Country}},delivery_options,5,16.3613,0.9999999403953552,1.0,1.0,1.0,1.0
+dense_q_8628,dense,8628,help me to see at what time I can contact customer support,contact_customer_service,5,27.761,0.9907035231590271,1.0,1.0,1.0,1.0
+dense_q_19791,dense,19791,how do i purchase an item,place_order,5,23.9248,0.9860491752624512,1.0,1.0,1.0,1.0
+dense_q_16874,dense,16874,i try to receive compensations of money,get_refund,5,24.6596,0.8972386717796326,1.0,1.0,1.0,1.0
+dense_q_2107,dense,2107,tgell me more about a shipping address update,change_shipping_address,5,23.3673,0.9408928751945496,1.0,1.0,1.0,1.0
+dense_q_9004,dense,9004,speak to an assistant,contact_human_agent,5,25.5739,0.9763854146003723,1.0,1.0,1.0,1.0
+dense_q_5277,dense,5277,can I check your fucking accepted payment options?,check_payment_methods,5,25.5248,0.8709992170333862,1.0,1.0,1.0,1.0
+dense_q_4932,dense,4932,help me check ur available payment options,check_payment_methods,5,23.7773,0.964276909828186,1.0,1.0,1.0,1.0
+dense_q_14505,dense,14505,correct information on gold account,edit_account,5,33.1274,0.9854117631912231,1.0,1.0,1.0,1.0
+dense_q_10001,dense,10001,"I do not have a freemium account, I try to register",create_account,5,28.7812,0.9457317590713501,1.0,1.0,1.0,1.0
+dense_q_20957,dense,20957,help reporting fucking signup problems,registration_problems,5,28.3728,0.9354842901229858,1.0,1.0,1.0,1.0
+dense_q_13994,dense,13994,modifying {{Account Type}} account,edit_account,5,40.4464,0.9999999403953552,1.0,1.0,1.0,1.0
+dense_q_3471,dense,3471,i do not know how i can see the early exit penalties,check_cancellation_fee,5,26.5038,0.9957612156867981,1.0,1.0,1.0,1.0
+dense_q_8164,dense,8164,I want to check at what time customer support available is,contact_customer_service,5,37.689,0.9680436849594116,1.0,1.0,1.0,1.0
+dense_q_24800,dense,24800,want assistance switching to the {{Account Type}} account,switch_account,5,17.2768,0.9924357533454895,1.0,1.0,1.0,1.0
+dense_q_1660,dense,1660,i do not know how to change a product of order {{Order Number}},change_order,5,36.638,0.9821068048477173,1.0,1.0,1.0,1.0
+dense_q_19451,dense,19451,how can I acquire a product?,place_order,5,26.4349,0.9665146470069885,1.0,1.0,1.0,1.0
+dense_q_26791,dense,26791,assistance to see the restitution status,track_refund,5,19.4185,0.9803492426872253,1.0,1.0,1.0,1.0
+dense_q_11648,dense,11648,what do I have to do to cancel my {{Account Category}} account?,delete_account,5,17.5317,0.9860268235206604,1.0,1.0,1.0,1.0
+dense_q_21265,dense,21265,I want assistance to inform of a problem with registrations,registration_problems,5,18.2931,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_4212,dense,4212,wanna find my bills from {{Person Name}} how do i do it,check_invoice,5,29.439,0.9858530163764954,1.0,1.0,1.0,1.0
+dense_q_16406,dense,16406,i try to obtain restitutions of money,get_refund,5,30.3741,0.9204691648483276,1.0,1.0,1.0,1.0
+dense_q_14333,dense,14333,change info on standard account,edit_account,5,26.6974,0.9913491606712341,1.0,1.0,1.0,1.0
+dense_q_18685,dense,18685,i want assistance to notify of errors with online payment,payment_issue,5,18.6016,0.9706138372421265,1.0,1.0,1.0,1.0
+dense_q_16180,dense,16180,i want assistance to ask for a reimbursement of money,get_refund,5,28.0584,0.9782316088676453,1.0,1.0,1.0,1.0
+dense_q_15670,dense,15670,can you help me downloading my bill #85632?,get_invoice,5,21.0142,0.9555422067642212,1.0,1.0,1.0,1.0
+dense_q_18729,dense,18729,errors with online payments,payment_issue,5,21.9048,0.9252936840057373,1.0,1.0,1.0,1.0
+dense_q_393,dense,393,I'm trying to cancel order {{Order Number}},cancel_order,5,15.7382,0.9999998807907104,1.0,1.0,1.0,1.0
+dense_q_447,dense,447,I can no longer afford order {{Order Number}},cancel_order,5,35.562,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_20869,dense,20869,where could I retrieve my profile access key?,recover_password,5,27.6557,0.939738392829895,1.0,1.0,1.0,1.0
+dense_q_8566,dense,8566,help checking what hours I can call customer assistance,contact_customer_service,5,17.6963,0.981592059135437,1.0,1.0,1.0,1.0
+dense_q_7372,dense,7372,help making a customer reclamation against ur company,complaint,5,26.2835,0.9758977890014648,1.0,1.0,1.0,1.0
+dense_q_2528,dense,2528,I want assistance to change the address,change_shipping_address,5,23.4656,0.9715097546577454,1.0,1.0,1.0,1.0
+dense_q_25594,dense,25594,I try to check purchase {{Order Number}} current status,track_order,5,18.8938,0.9877224564552307,1.0,1.0,1.0,1.0
+dense_q_24030,dense,24030,help me use the {{Account Category}} profile,switch_account,5,30.3329,1.0,1.0,1.0,1.0,1.0
+dense_q_14969,dense,14969,I don't know what I have to do to download my bill #12588,get_invoice,5,41.314,0.9933785200119019,1.0,1.0,1.0,1.0
+dense_q_6393,dense,6393,I try to see in what situations can I ask for reimbursements,check_refund_policy,5,28.1345,0.9676965475082397,1.0,1.0,1.0,1.0
+dense_q_14749,dense,14749,updatikng data on platinum account,edit_account,5,19.4503,0.7964160442352295,1.0,1.0,1.0,1.0
+dense_q_22706,dense,22706,where do I submit feedback for your products?,review,5,16.99,0.9857128858566284,1.0,1.0,1.0,1.0
+dense_q_24849,dense,24849,where do i switch to the gold account,switch_account,5,17.8853,0.9433783888816833,1.0,1.0,1.0,1.0
+dense_q_2262,dense,2262,"I entered a wrong delivery address, can you correct it?",change_shipping_address,5,18.2696,0.9425954222679138,1.0,1.0,1.0,1.0
+dense_q_12965,dense,12965,I call to check when my delivery is going to arrive,delivery_period,5,16.3715,0.9126996994018555,1.0,1.0,1.0,1.0
+dense_q_11680,dense,11680,remove {{Account Category}} accoint,delete_account,5,15.8817,0.9599590301513672,1.0,1.0,1.0,1.0
+dense_q_26689,dense,26689,can you show me the rebate current status?,track_refund,5,28.0307,0.9568861722946167,1.0,1.0,1.0,1.0
+dense_q_25356,dense,25356,need to check order {{Order Number}} current status how do i do it,track_order,5,27.1234,0.9892958402633667,1.0,1.0,1.0,1.0
+dense_q_12641,dense,12641,i dont know what i have to do to see the shipment methods,delivery_options,5,39.18,0.9817394018173218,1.0,1.0,1.0,1.0
+dense_q_21412,dense,21412,what do I need to do to notify of an issue with a signup?,registration_problems,5,18.0328,0.9685155153274536,1.0,1.0,1.0,1.0
+dense_q_5550,dense,5550,i want help listing the available payment options,check_payment_methods,5,31.2922,0.9951774477958679,1.0,1.0,1.0,1.0
+dense_q_709,dense,709,I can no longer pay for order {{Order Number}},cancel_order,5,38.5773,1.0,1.0,1.0,1.0,1.0
+dense_q_16344,dense,16344,refunding{{Currency Symbol}}{{Refund Amount}},get_refund,5,30.0031,0.9999998807907104,1.0,1.0,1.0,1.0
+dense_q_4971,dense,4971,"I want to see what damn payment methods are allowed, help me",check_payment_methods,5,17.6422,0.9528976678848267,1.0,1.0,1.0,1.0
+dense_q_18285,dense,18285,could you help me reporting errors with online payment?,payment_issue,5,19.519,0.9693344831466675,1.0,1.0,1.0,1.0
+dense_q_4740,dense,4740,I have got to look for my bill #00108,check_invoice,5,30.9232,0.9433812499046326,1.0,1.0,1.0,1.0
+dense_q_2284,dense,2284,there are problems trying to edit my address,change_shipping_address,5,17.1096,0.9778809547424316,1.0,1.0,1.0,1.0
+dense_q_26832,dense,26832,I expect an refund of {{Refund Amount}} dollars,track_refund,5,18.045,1.0,1.0,1.0,1.0,1.0
+dense_q_21325,dense,21325,I want help to inform of problems with a sign-up,registration_problems,5,32.5515,0.9944401979446411,1.0,1.0,1.0,1.0
+dense_q_10635,dense,10635,"I would like to create a pro account, how do I do it?",create_account,5,35.5572,0.9971939921379089,1.0,1.0,1.0,1.0
+dense_q_13182,dense,13182,how can I see how long it takes for the article to arrive?,delivery_period,5,15.4327,0.9374490976333618,1.0,1.0,1.0,1.0
+dense_q_3957,dense,3957,check my bill{{Invoice Number}},check_invoice,5,28.7072,0.8422349095344543,1.0,0.8,1.0,0.9047172294870751
+dense_q_19266,dense,19266,I have got to earn a few of your product,place_order,5,29.3162,0.9403612613677979,1.0,1.0,1.0,1.0
+dense_q_12245,dense,12245,where do I see what shipping options I have?,delivery_options,5,22.5635,0.962700605392456,1.0,1.0,1.0,1.0
+dense_q_9986,dense,9986,help me to open a {{Account Type}} account,create_account,5,19.0647,0.9878984689712524,1.0,1.0,1.0,1.0
+dense_q_5045,dense,5045,how do I check what payment payment modalities are accepted?,check_payment_methods,5,21.4039,0.9962162971496582,1.0,1.0,1.0,1.0
+dense_q_20857,dense,20857,I am trying to find information about a forgotten PIN code,recover_password,5,20.5524,0.988547682762146,1.0,1.0,1.0,1.0
+dense_q_6519,dense,6519,help me checking in what situations can I ask for a refund,check_refund_policy,5,20.4498,0.9866010546684265,1.0,1.0,1.0,1.0
+dense_q_20275,dense,20275,where do I restore my pass?,recover_password,5,51.4462,0.8815470933914185,1.0,1.0,1.0,1.0
+dense_q_2118,dense,2118,have problems with a shipping address modification,change_shipping_address,5,20.6223,0.930957019329071,1.0,1.0,1.0,1.0
+dense_q_20430,dense,20430,I have to retrieve my user PIN,recover_password,5,16.5816,0.9746004939079285,1.0,1.0,1.0,1.0
+dense_q_22707,dense,22707,leave review for a service,review,5,25.9639,0.9804083108901978,1.0,1.0,1.0,1.0
+dense_q_6024,dense,6024,are the charges of ur services reimbursable,check_refund_policy,5,29.9271,0.9496074318885803,1.0,1.0,1.0,1.0
+dense_q_22493,dense,22493,can you help me write an opinion about a product?,review,5,19.4006,0.9881917834281921,1.0,1.0,1.0,1.0
+dense_q_22204,dense,22204,ya have a method to send my feedback for ur products,review,5,16.8321,0.9151380062103271,1.0,1.0,1.0,1.0
+dense_q_25511,dense,25511,status of order {{Order Number}},track_order,5,24.9822,1.0,1.0,1.0,1.0,1.0
+dense_q_25658,dense,25658,can uhelp me seethe ETA of order {{Order Number}},track_order,5,36.5399,0.9703798294067383,1.0,1.0,1.0,1.0
+dense_q_24252,dense,24252,use pro account,switch_account,5,23.7774,0.9839459657669067,1.0,0.6,1.0,0.9674679834891693
+dense_q_564,dense,564,i want assistance canceling order {{Order Number}},cancel_order,5,27.9914,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_23777,dense,23777,I try to submit a new delivery address,set_up_shipping_address,5,25.0702,0.9898941516876221,1.0,1.0,1.0,1.0
+dense_q_2859,dense,2859,I need assistance to modify my address,change_shipping_address,5,15.7093,0.9684967994689941,1.0,1.0,1.0,1.0
+dense_q_11048,dense,11048,"I don't want my user account, help cancelling it",delete_account,5,26.1035,0.8017889857292175,1.0,1.0,1.0,1.0
+dense_q_26492,dense,26492,I need to check my goddamn restitution status,track_refund,5,24.6122,0.8921241760253906,1.0,1.0,1.0,1.0
+dense_q_22901,dense,22901,I try to submit the secondary delivery address,set_up_shipping_address,5,15.121,0.9818611145019531,1.0,1.0,1.0,1.0
+dense_q_16470,dense,16470,assistance to get a rebate,get_refund,5,39.2864,0.9851518273353577,1.0,1.0,1.0,1.0
+dense_q_4348,dense,4348,i have got to see the damn bills from {{Person Name}},check_invoice,5,26.7937,0.9616533517837524,1.0,0.8,1.0,1.0
+dense_q_13623,dense,13623,"I have got to see when will my item arrive, how do I do it?",delivery_period,5,27.5172,0.9808608293533325,1.0,1.0,1.0,1.0
+dense_q_12950,dense,12950,assistance seeing how soon can I expect my article,delivery_period,5,28.0832,0.9748198986053467,1.0,1.0,1.0,1.0
+dense_q_7840,dense,7840,where do I lodge a consumer claim against your business?,complaint,5,34.7315,0.9705881476402283,1.0,1.0,1.0,1.0
+dense_q_3761,dense,3761,how can i see the withdrawal fees,check_cancellation_fee,5,29.6427,0.9945024251937866,1.0,1.0,1.0,1.0
+dense_q_25012,dense,25012,want help to check the eta of purchase {{Order Number}},track_order,5,29.0907,0.9976456165313721,1.0,1.0,1.0,1.0
+dense_q_26091,dense,26091,could I know if there are any news on my reimbursement?,track_refund,5,22.5014,0.9777314066886902,1.0,1.0,1.0,1.0
+dense_q_25160,dense,25160,can I see order {{Order Number}} status?,track_order,5,23.5101,1.0,1.0,1.0,1.0,1.0
+dense_q_16635,dense,16635,where to get a restitution of my money,get_refund,5,23.9534,0.9907640218734741,1.0,1.0,1.0,1.0
+dense_q_20932,dense,20932,report erroprs with sign-up,registration_problems,5,25.4125,0.8224605321884155,1.0,1.0,1.0,1.0
+dense_q_16887,dense,16887,where could I get a compensation of my money?,get_refund,5,16.9727,0.9871283769607544,1.0,1.0,1.0,1.0
+dense_q_16069,dense,16069,can you help me to request a reimbursement of money?,get_refund,5,18.3921,0.9450376033782959,1.0,1.0,1.0,1.0
+dense_q_15135,dense,15135,help geting my bills from {{Person Name}},get_invoice,5,17.0841,0.993840754032135,1.0,1.0,1.0,1.0
+dense_q_13172,dense,13172,I'm trying to see how long it takes for my product to arrive,delivery_period,5,26.2674,0.9668654203414917,1.0,1.0,1.0,1.0
+dense_q_18651,dense,18651,"I cannot pay, help reporting goddamn problems with payments",payment_issue,5,19.4116,0.9279077649116516,1.0,1.0,1.0,1.0
+dense_q_11580,dense,11580,what do I need to do to cancell a {{Account Category}} account?,delete_account,5,25.8754,0.9854521751403809,1.0,1.0,1.0,1.0
+dense_q_24633,dense,24633,I don't know what to do to switch to the {{Account Type}} account,switch_account,5,39.4661,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_19445,dense,19445,I want assiostance to acquire an article,place_order,5,39.0633,0.8911770582199097,1.0,1.0,1.0,1.0
+dense_q_11201,dense,11201,deleting pro account,delete_account,5,32.2453,0.9815130829811096,1.0,1.0,1.0,1.0
+dense_q_1079,dense,1079,how to edt order {{Order Number}},change_order,5,29.6202,1.0,1.0,1.0,1.0,1.0
+dense_q_3397,dense,3397,I do not know what to do to check the cancellation charges,check_cancellation_fee,5,27.5627,0.977448582649231,1.0,1.0,1.0,1.0
+dense_q_4561,dense,4561,"I have got to look for bill #00108, how do I do it?",check_invoice,5,15.5527,0.928155779838562,1.0,1.0,1.0,1.0
+dense_q_1401,dense,1401,changing order {{Order Number}},change_order,5,23.8313,1.000000238418579,1.0,1.0,1.0,1.0
+dense_q_15695,dense,15695,I need help getting the bills from {{Person Name}},get_invoice,5,36.0738,0.9783523082733154,1.0,1.0,1.0,1.0
+dense_q_21618,dense,21618,is it possible to report signup errors?,registration_problems,5,15.9749,0.9497969150543213,1.0,1.0,1.0,1.0
+dense_q_2384,dense,2384,there is an error modifying the delivery address,change_shipping_address,5,19.3166,0.97197425365448,1.0,1.0,1.0,1.0
+dense_q_18191,dense,18191,I am trying to inform of payment problems,payment_issue,5,22.63,0.9672059416770935,1.0,1.0,1.0,1.0
+dense_q_13093,dense,13093,how long does it take for a damn article to arrive?,delivery_period,5,18.5121,0.8991397619247437,1.0,1.0,1.0,1.0
+dense_q_3326,dense,3326,how to see the early termination penalties?,check_cancellation_fee,5,21.1943,0.9924205541610718,1.0,1.0,1.0,1.0
+dense_q_13527,dense,13527,want help to check whenmy package is gonna arrive,delivery_period,5,31.9105,0.9636168479919434,1.0,1.0,1.0,1.0
+dense_q_18992,dense,18992,i want assistance acquiring a few of ur article,place_order,5,16.7288,0.9894005656242371,1.0,1.0,1.0,1.0
+dense_q_8393,dense,8393,how can I see what hours I cn contact customer support?,contact_customer_service,5,20.7582,0.914549708366394,1.0,1.0,1.0,1.0
+dense_q_14280,dense,14280,edit information on {{Account Category}} account,edit_account,5,16.0583,1.0,1.0,1.0,1.0,1.0
+dense_q_18616,dense,18616,I don't know what I have to do to notify of a payment error,payment_issue,5,24.0892,0.9840409159660339,1.0,1.0,1.0,1.0
+dense_q_16726,dense,16726,where do i ask for a refund,get_refund,5,19.3801,0.8943285942077637,1.0,0.8,1.0,1.0
+dense_q_8278,dense,8278,assistance to see at what time I can call customr service,contact_customer_service,5,18.18,0.8893777132034302,1.0,1.0,1.0,1.0
+dense_q_12806,dense,12806,assistance seeing what shipment methods you offer,delivery_options,5,24.9238,0.9550565481185913,1.0,1.0,1.0,1.0
+dense_q_22775,dense,22775,I do not know how I could send my feedback for a product,review,5,16.4243,0.9813447594642639,1.0,1.0,1.0,1.0
+dense_q_19376,dense,19376,want help to purchase some of your product,place_order,5,20.4855,0.9611244797706604,1.0,1.0,1.0,1.0
+dense_q_21015,dense,21015,reporting registration issues,registration_problems,5,35.182,0.9888580441474915,1.0,1.0,1.0,1.0
+dense_q_24793,dense,24793,"I want to use the {{Account Type}} profile, how to do it?",switch_account,5,24.5432,0.9879730939865112,1.0,1.0,1.0,1.0
+dense_q_21894,dense,21894,where could i leave a fucking comment for a service,review,5,16.5482,0.8672249913215637,1.0,1.0,1.0,1.0
+dense_q_23861,dense,23861,can huelp me setting the secondary delivery address up,set_up_shipping_address,5,15.7983,0.9053106904029846,1.0,1.0,1.0,1.0
+dense_q_14447,dense,14447,correct details on gold account,edit_account,5,24.135,0.9734207987785339,1.0,1.0,1.0,1.0
+dense_q_25262,dense,25262,can I check purchase {{Order Number}} current status?,track_order,5,18.7301,0.9691867828369141,1.0,1.0,1.0,1.0
+dense_q_11059,dense,11059,"I never use the {{Account Type}} account, can you help me to cancel it?",delete_account,5,36.8548,0.9809477925300598,1.0,1.0,1.0,1.0
+dense_q_9021,dense,9021,i need assistance to talk with somelne,contact_human_agent,5,25.119,0.815840482711792,1.0,1.0,1.0,1.0
+dense_q_14540,dense,14540,update information on premium account,edit_account,5,30.0696,0.9921880960464478,1.0,1.0,1.0,1.0
+dense_q_11608,dense,11608,cancel {{Account Type}} acount,delete_account,5,19.9593,0.9999999403953552,1.0,1.0,1.0,1.0
+dense_q_17909,dense,17909,I need help to notify of a trouble with payment,payment_issue,5,31.0619,0.9861043691635132,1.0,1.0,1.0,1.0
+dense_q_15095,dense,15095,I do not know how to download the bill #85632,get_invoice,5,32.3194,0.9628938436508179,1.0,1.0,1.0,1.0
+dense_q_17412,dense,17412,"I have to unsuscribe to your company newsletter, I need help",newsletter_subscription,5,37.8758,0.9073781967163086,1.0,1.0,1.0,1.0
+dense_q_21814,dense,21814,issues with registration,registration_problems,5,27.1758,0.983500599861145,1.0,1.0,1.0,1.0
+dense_q_23224,dense,23224,i haveerrors entering my new shipping address,set_up_shipping_address,5,26.7663,0.8943959474563599,1.0,1.0,1.0,1.0
+dense_q_25680,dense,25680,wanna see order {{Order Number}} damn current status help me,track_order,5,25.1579,0.9535248279571533,1.0,1.0,1.0,1.0
+dense_q_19788,dense,19788,i do not know what to do to earn an item,place_order,5,30.7777,0.9356734156608582,1.0,1.0,1.0,1.0
+dense_q_15770,dense,15770,I am trying to download the bill from {{Person Name}},get_invoice,5,16.8609,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_7847,dense,7847,"the experience with you was awful, help me file a complaint",complaint,5,26.3016,0.8835204839706421,1.0,1.0,1.0,1.0
+dense_q_13696,dense,13696,help to see how long it takes for my item to arrive,delivery_period,5,24.0541,0.9955602884292603,1.0,1.0,1.0,1.0
+dense_q_19352,dense,19352,i have got to buy a product can i get some help,place_order,5,20.3009,0.8617909550666809,1.0,1.0,1.0,1.0
+dense_q_26236,dense,26236,i expect a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund,5,27.5851,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_23892,dense,23892,wanna switch to th {{Account Category}} account could uhelp me,switch_account,5,25.5024,0.8916949033737183,1.0,1.0,1.0,1.0
+dense_q_18004,dense,18004,i have to notify of issues with payments,payment_issue,5,30.3297,0.9889205694198608,1.0,1.0,1.0,1.0
+dense_q_14484,dense,14484,modify info on {{Account Category}} account,edit_account,5,19.7083,1.000000238418579,1.0,1.0,1.0,1.0
+dense_q_19347,dense,19347,"I need to earn several bloody items, how could I do it?",place_order,5,18.81,0.8036725521087646,1.0,1.0,1.0,1.0
+dense_q_15319,dense,15319,getting bills from {{Person Name}},get_invoice,5,20.1531,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_8438,dense,8438,I don't know what to do to speak with cusstomer service,contact_customer_service,5,17.926,0.7954317331314087,1.0,1.0,1.0,1.0
+dense_q_13992,dense,13992,modify info on premium account,edit_account,5,27.336,0.9932777881622314,1.0,1.0,1.0,1.0
+dense_q_14502,dense,14502,edit information on premium account,edit_account,5,21.3303,0.9906771183013916,1.0,1.0,1.0,1.0
+dense_q_20838,dense,20838,what do i need to do to recover my user account pin code,recover_password,5,30.6967,0.9975456595420837,1.0,1.0,1.0,1.0
+dense_q_4656,dense,4656,see bill from {{Person Name}},check_invoice,5,17.6203,0.9999998807907104,1.0,1.0,1.0,1.0
+dense_q_4403,dense,4403,find my bills from {{Person Name}},check_invoice,5,32.3887,1.0000001192092896,1.0,1.0,1.0,1.0
+dense_q_8415,dense,8415,help me to see what hours I can reach customer support,contact_customer_service,5,25.1726,0.9965612888336182,1.0,1.0,1.0,1.0
+dense_q_26571,dense,26571,can you help me to see the restitution status?,track_refund,5,45.6576,0.9709790349006653,1.0,1.0,1.0,1.0
+dense_q_11095,dense,11095,"I want to cancel a damn {{Account Type}} account, I need help",delete_account,5,36.6914,0.972852349281311,1.0,1.0,1.0,1.0
+dense_q_49,dense,49,assistance with canceling purchase {{Order Number}},cancel_order,5,19.9677,1.0,1.0,1.0,1.0,1.0
+dense_q_11199,dense,11199,i do not know what i need to do to remove the {{Account Type}} account,delete_account,5,25.1396,1.000000238418579,1.0,1.0,1.0,1.0
+dense_q_24827,dense,24827,i dont khow what i need to do to change to the {{Account Type}} account,switch_account,5,40.5879,0.9858815670013428,1.0,1.0,1.0,1.0
+dense_q_16984,dense,16984,could you help me to unsubscribe to the company newsletter?,newsletter_subscription,5,32.4227,0.9694239497184753,1.0,1.0,1.0,1.0
+dense_q_2184,dense,2184,i have problems editing my delivery address,change_shipping_address,5,28.3633,0.9913866519927979,1.0,1.0,1.0,1.0
+dense_q_5912,dense,5912,i dont know how to check  ur allowed payment modalities,check_payment_methods,5,30.7296,0.9766559600830078,1.0,1.0,1.0,1.0
+dense_q_1101,dense,1101,I can't swap some items of purchase {{Order Number}},change_order,5,18.6695,0.9833148717880249,1.0,1.0,1.0,1.0
+dense_q_1443,dense,1443,could you help me to delete something?,change_order,5,26.0753,0.5480501055717468,1.0,0.2,0.3333333333333333,0.5
+dense_q_2821,dense,2821,"the address changed, could I update it?",change_shipping_address,5,15.1607,0.8797699213027954,1.0,1.0,1.0,1.0
+dense_q_17893,dense,17893,want help subscribing to ur companynewsletter,newsletter_subscription,5,17.0728,0.824934184551239,1.0,1.0,1.0,1.0
+dense_q_13428,dense,13428,need to check how soon can i ezpect my package,delivery_period,5,17.2782,0.9138779640197754,1.0,1.0,1.0,1.0
+dense_q_22521,dense,22521,is their a section to submit my feedback about a product,review,5,25.6989,0.9173640012741089,1.0,1.0,1.0,1.0
+dense_q_19066,dense,19066,how to shop some articles?,place_order,5,27.9235,0.994473934173584,1.0,1.0,1.0,1.0
+dense_q_13635,dense,13635,assistance seeing how soon can I expect my item,delivery_period,5,22.5251,0.9832521677017212,1.0,1.0,1.0,1.0
+dense_q_6402,dense,6402,in what cases can I request reimbursements?,check_refund_policy,5,18.8345,0.969326913356781,1.0,1.0,1.0,1.0
+dense_q_20552,dense,20552,I need information about my access key retrieval,recover_password,5,38.1356,0.9549874067306519,1.0,1.0,1.0,1.0
+dense_q_10210,dense,10210,help me creating a {{Account Type}} account,create_account,5,21.4957,0.9955218434333801,1.0,1.0,1.0,1.0
+tfidf_q_15521,tfidf,15521,"I want to downlpad my invoice from {{Person Name}}, I need help",get_invoice,5,7.2084,0.7041175816947016,1.0,0.8,1.0,0.9558295932317544
+tfidf_q_4226,tfidf,4226,what do I have to do to see my bill #00108?,check_invoice,5,4.7757,0.8031100480498499,1.0,0.6,1.0,0.9469024295259745
+tfidf_q_1315,tfidf,1315,help to swap an article of order {{Order Number}},change_order,5,4.9362,0.9089547360495519,1.0,1.0,1.0,1.0
+tfidf_q_20746,tfidf,20746,how can I reset my profile access key?,recover_password,5,4.3433,0.7444340088553503,1.0,1.0,1.0,1.0
+tfidf_q_4672,tfidf,4672,check invoices from {{Person Name}},check_invoice,5,4.0041,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_25272,tfidf,25272,i need assistance to check the eta of the order {{Order Number}},track_order,5,6.2588,1.0,1.0,1.0,1.0,1.0
+tfidf_q_22740,tfidf,22740,I do not know how to leave my feedback for a product,review,5,4.8169,0.8898928921078156,1.0,1.0,1.0,1.0
+tfidf_q_9862,tfidf,9862,can ya help me contacting an operator,contact_human_agent,5,4.4533,0.6398796555151297,1.0,1.0,1.0,1.0
+tfidf_q_2054,tfidf,2054,want help trying to edit my addres,change_shipping_address,5,4.7276,0.7617606133138191,1.0,1.0,1.0,1.0
+tfidf_q_24404,tfidf,24404,how could i change to the {{Account Type}} account,switch_account,5,4.715,0.9132212571470822,1.0,1.0,1.0,1.0
+tfidf_q_3082,tfidf,3082,I need to check the withdrawal fee,check_cancellation_fee,5,4.7658,0.9033878794180495,1.0,1.0,1.0,1.0
+tfidf_q_8233,tfidf,8233,i want help to see what hours i can call custmer service,contact_customer_service,5,5.0089,0.7248192160170343,1.0,1.0,1.0,1.0
+tfidf_q_5779,tfidf,5779,can you help me listing your accepted payment modalities?,check_payment_methods,5,4.1239,0.9382125529652154,1.0,1.0,1.0,1.0
+tfidf_q_26446,tfidf,26446,I expect a compensation of {{Refund Amount}} dollars,track_refund,5,3.9113,1.0,1.0,1.0,1.0,1.0
+tfidf_q_21210,tfidf,21210,I want assistance to notify of an error with a registration,registration_problems,5,4.7057,0.807024698830395,1.0,0.8,1.0,1.0
+tfidf_q_14500,tfidf,14500,modify details on {{Account Type}} account,edit_account,5,3.8983,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_7199,tfidf,7199,want help filing a claim,complaint,5,4.051,0.8974072521306292,1.0,1.0,1.0,1.0
+tfidf_q_11888,tfidf,11888,have a problem with the removal of my {{Account Type}} account,delete_account,5,4.367,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_6260,tfidf,6260,need assistance to see in what cases can i ask for refunds,check_refund_policy,5,4.9612,0.93887752977288,1.0,1.0,1.0,1.0
+tfidf_q_2259,tfidf,2259,the shipping address has changed how can i modify it,change_shipping_address,5,4.8757,0.9360553071814621,1.0,1.0,1.0,1.0
+tfidf_q_1949,tfidf,1949,edit order {{Order Number}},change_order,5,4.4751,1.0,1.0,1.0,1.0,1.0
+tfidf_q_19555,tfidf,19555,I have got to acquire several of your article,place_order,5,5.2197,0.8597095303972406,1.0,1.0,1.0,1.0
+tfidf_q_22961,tfidf,22961,i have a trouble submitting a different shipping address,set_up_shipping_address,5,3.8836,0.6832220120224443,1.0,1.0,1.0,1.0
+tfidf_q_7280,tfidf,7280,i need assistance making a consumer claim against ur compan,complaint,5,4.4997,0.9422017070210498,1.0,1.0,1.0,1.0
+tfidf_q_22364,tfidf,22364,how can i submit my feedback about ur products,review,5,5.2947,0.9201867988569304,1.0,1.0,1.0,1.0
+tfidf_q_4447,tfidf,4447,how to check bill #85632?,check_invoice,5,4.8283,0.8924834234469571,1.0,1.0,1.0,1.0
+tfidf_q_22864,tfidf,22864,help me submit some feedback for a service,review,5,6.2654,0.7823620759378429,1.0,1.0,1.0,1.0
+tfidf_q_1813,tfidf,1813,i want help removing a product from order {{Order Number}},change_order,5,4.8546,0.8689766447472468,1.0,1.0,1.0,1.0
+tfidf_q_12586,tfidf,12586,wanna see what shipping methods are available how to do it,delivery_options,5,5.0052,0.7264419662531542,1.0,1.0,1.0,1.0
+tfidf_q_21902,tfidf,21902,I need assistance to leave an opinion for your services,review,5,4.9375,0.7468383686256233,1.0,1.0,1.0,1.0
+tfidf_q_8316,tfidf,8316,I do not know how I can get in touch with customer service,contact_customer_service,5,4.6236,0.896565452926092,1.0,1.0,1.0,1.0
+tfidf_q_4373,tfidf,4373,I need assistance to look for the invoice #00108,check_invoice,5,5.1162,0.7467037237427685,1.0,1.0,1.0,1.0
+tfidf_q_717,tfidf,717,i have to cancel purchase {{Order Number}},cancel_order,5,6.6903,1.0,1.0,1.0,1.0,1.0
+tfidf_q_3388,tfidf,3388,"I have to check the early exit charge, how can I do it?",check_cancellation_fee,5,5.2796,0.8498132425475325,1.0,1.0,1.0,1.0
+tfidf_q_17561,tfidf,17561,"I have to sign up to your newsletter, I need assistance",newsletter_subscription,5,5.2822,0.8535559020766216,1.0,1.0,1.0,1.0
+tfidf_q_23138,tfidf,23138,there is a problem entering my secondary shipping address,set_up_shipping_address,5,43.5205,0.8493702300221213,1.0,1.0,1.0,1.0
+tfidf_q_16327,tfidf,16327,"I paid {{Currency Symbol}}{{Refund Amount}} for a product, I want to obtain a fucking rebate",get_refund,5,6.3117,0.7011863838587817,1.0,1.0,1.0,1.0
+tfidf_q_4897,tfidf,4897,is it possible to chec my bill #37777,check_invoice,5,15.61,0.5881366200111822,1.0,0.4,1.0,0.9197207891481876
+tfidf_q_8815,tfidf,8815,what is thecustomer support mail,contact_customer_service,5,3.8198,0.7157643179865205,1.0,0.8,1.0,1.0
+tfidf_q_24776,tfidf,24776,changkng to platinum account,switch_account,5,4.6269,0.6112979627207024,1.0,1.0,1.0,1.0
+tfidf_q_16019,tfidf,16019,what do i have to do to request restitutions of money,get_refund,5,6.625,0.6599869950914653,1.0,0.8,1.0,0.9828920819566879
+tfidf_q_614,tfidf,614,how do I cancel purchae {{Order Number}}?,cancel_order,5,4.711,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_21648,tfidf,21648,where do I inform of an error with sign-up?,registration_problems,5,5.0953,0.791910555921653,1.0,1.0,1.0,1.0
+tfidf_q_13978,tfidf,13978,correct details on premium account,edit_account,5,3.682,0.684840843030959,1.0,1.0,1.0,1.0
+tfidf_q_5029,tfidf,5029,wanna list the bloody accepted payment options how to do it,check_payment_methods,5,4.6442,0.5496764883147939,1.0,1.0,1.0,1.0
+tfidf_q_20524,tfidf,20524,i have to resdet my user pin code,recover_password,5,4.4235,0.8175266362314916,1.0,1.0,1.0,1.0
+tfidf_q_26273,tfidf,26273,I'm waiting for a refund of {{Refund Amount}} dollrs,track_refund,5,3.9812,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_9019,tfidf,9019,could I speak to a live agent?,contact_human_agent,5,4.3904,0.8344421955617435,1.0,1.0,1.0,1.0
+tfidf_q_24012,tfidf,24012,help changing to the standard account,switch_account,5,5.2075,0.9598352004432188,1.0,1.0,1.0,1.0
+tfidf_q_19420,tfidf,19420,I need help to earn several producst,place_order,5,6.5782,0.7294406995436564,1.0,1.0,1.0,1.0
+tfidf_q_24917,tfidf,24917,can I check the ETA of order {{Order Number}}?,track_order,5,7.3362,0.8694531416854109,1.0,1.0,1.0,1.0
+tfidf_q_22013,tfidf,22013,I am trying to leave fewedback about a service,review,5,4.9088,0.6363828163564527,1.0,0.8,1.0,1.0
+tfidf_q_5064,tfidf,5064,want assistance checking your available payment modalities,check_payment_methods,5,14.4398,0.9270425584272711,1.0,1.0,1.0,1.0
+tfidf_q_22592,tfidf,22592,wanna leave an opinion,review,5,7.3433,0.7751595389849494,1.0,1.0,1.0,1.0
+tfidf_q_4937,tfidf,4937,I'm trying to check ur payment modalitise,check_payment_methods,5,5.2919,0.7134157861099647,1.0,1.0,1.0,1.0
+tfidf_q_5170,tfidf,5170,check ur paymnt modalities,check_payment_methods,5,3.924,0.4200328755684605,1.0,1.0,1.0,1.0
+tfidf_q_25747,tfidf,25747,how can i see the status of purchase {{Order Number}},track_order,5,4.6589,0.9555756628253445,1.0,1.0,1.0,1.0
+tfidf_q_9121,tfidf,9121,i want help chatting with an assistant,contact_human_agent,5,4.7452,0.9638476650438137,1.0,1.0,1.0,1.0
+tfidf_q_15472,tfidf,15472,wanna downlpad my bill from {{Person Name}},get_invoice,5,3.5714,0.6391868014558769,1.0,0.4,1.0,0.8503449055347546
+tfidf_q_23947,tfidf,23947,where to change to the freemium account,switch_account,5,4.6363,0.869062901985571,1.0,1.0,1.0,1.0
+tfidf_q_15554,tfidf,15554,send me bills from {{Person Name}},get_invoice,5,3.8609,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_17861,tfidf,17861,how can I subscribe to the newsletter?,newsletter_subscription,5,5.1016,0.9542592330395999,1.0,1.0,1.0,1.0
+tfidf_q_18551,tfidf,18551,i cannot pay want help to report errors with payments,payment_issue,5,4.6857,0.5855276120718221,1.0,1.0,1.0,1.0
+tfidf_q_1072,tfidf,1072,remove a product from purchase {{Order Number}},change_order,5,4.3805,1.0,1.0,1.0,1.0,1.0
+tfidf_q_3161,tfidf,3161,could uhelp me check the cancellation penalty,check_cancellation_fee,5,4.4565,0.6531471135391611,1.0,1.0,1.0,1.0
+tfidf_q_20802,tfidf,20802,how can i find information about my key recovery,recover_password,5,4.7139,0.9288839265645669,1.0,0.8,1.0,1.0
+tfidf_q_16003,tfidf,16003,can you help me ask for a rebate of money?,get_refund,5,5.1117,0.7880625463222565,1.0,1.0,1.0,1.0
+tfidf_q_26501,tfidf,26501,I am waiting for a compensation of  {{Currency Symbol}}{{Refund Amount}},track_refund,5,3.4358,1.0000000000000004,1.0,1.0,1.0,1.0
+tfidf_q_2723,tfidf,2723,i have issues trying to edit my delivery address,change_shipping_address,5,4.2048,1.0,1.0,1.0,1.0,1.0
+tfidf_q_23007,tfidf,23007,where to submit a  different delivery address,set_up_shipping_address,5,5.4382,0.8889371044210681,1.0,1.0,1.0,1.0
+tfidf_q_1194,tfidf,1194,I want to change several products of order {{Order Number}},change_order,5,4.5549,0.9345895638803876,1.0,1.0,1.0,1.0
+tfidf_q_21157,tfidf,21157,is it possible to notify of a problem with a signup?,registration_problems,5,4.706,0.7682367879075233,1.0,1.0,1.0,1.0
+tfidf_q_5466,tfidf,5466,how to check what payment options are available,check_payment_methods,5,4.6077,0.9354346058962594,1.0,1.0,1.0,1.0
+tfidf_q_15523,tfidf,15523,i cant find the bill #00108 will umail it to me,get_invoice,5,4.9986,0.4788971884235062,1.0,0.4,1.0,0.9197207891481876
+tfidf_q_3828,tfidf,3828,I am trying to see the fucking withdrawal charges,check_cancellation_fee,5,5.1322,0.706110290958293,1.0,1.0,1.0,1.0
+tfidf_q_22440,tfidf,22440,i want help to send feedback for ur services,review,5,5.148,0.8030153607534465,1.0,1.0,1.0,1.0
+tfidf_q_5401,tfidf,5401,how to list the allowed payment modalities?,check_payment_methods,5,4.2193,0.8989043816788627,1.0,1.0,1.0,1.0
+tfidf_q_3990,tfidf,3990,i want assistance to check the invoices from {{Person Name}},check_invoice,5,4.082,0.9171383889659358,1.0,0.6,1.0,0.9674679834891693
+tfidf_q_15703,tfidf,15703,I am calling to get my goddamn invoices from {{Person Name}},get_invoice,5,5.5056,0.8134921957490797,1.0,0.8,1.0,0.9828920819566879
+tfidf_q_12283,tfidf,12283,need to check what methods for delivery i can choose help me,delivery_options,5,4.4592,0.7750752902137387,1.0,1.0,1.0,1.0
+tfidf_q_9246,tfidf,9246,directing to operator,contact_human_agent,5,4.5453,0.6580264067000072,1.0,1.0,1.0,1.0
+tfidf_q_7275,tfidf,7275,can you help me filing a complaiont?,complaint,5,4.4635,0.7254699120765344,1.0,1.0,1.0,1.0
+tfidf_q_12307,tfidf,12307,where to see what shipment options I have?,delivery_options,5,4.5664,0.8576499423431001,1.0,1.0,1.0,1.0
+tfidf_q_6086,tfidf,6086,check under what circumstances can i request a reimbursement,check_refund_policy,5,3.9496,0.8488444466418187,1.0,1.0,1.0,1.0
+tfidf_q_12403,tfidf,12403,I need assistance to check what shipment options are there,delivery_options,5,4.1889,0.9084236265316225,1.0,1.0,1.0,1.0
+tfidf_q_5365,tfidf,5365,need assistance checking ur allowed payment options,check_payment_methods,5,4.1795,0.8524384163788021,1.0,1.0,1.0,1.0
+tfidf_q_33,tfidf,33,i do not know how i can cancel purchase {{Order Number}},cancel_order,5,3.8785,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_26606,tfidf,26606,i have got to track my refund,track_refund,5,5.1615,0.7279420598957399,1.0,0.8,1.0,0.9047172294870751
+tfidf_q_11612,tfidf,11612,I want information about the termination of a {{Account Type}} account,delete_account,5,4.4132,1.0,1.0,1.0,1.0,1.0
+tfidf_q_24948,tfidf,24948,what do I need to do to see order {{Order Number}} status?,track_order,5,4.9347,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_14125,tfidf,14125,editting details on platinum account,edit_account,5,3.4039,0.7143736155781004,1.0,1.0,1.0,1.0
+tfidf_q_4260,tfidf,4260,what do i have to do to check my invoice from {{Person Name}},check_invoice,5,4.2709,0.8285971700131404,1.0,0.6,1.0,0.8529278650606567
+tfidf_q_9571,tfidf,9571,I try to talk to a live agent,contact_human_agent,5,4.1755,0.8651571159684379,1.0,1.0,1.0,1.0
+tfidf_q_12719,tfidf,12719,help me to check what delivery methods I can choose,delivery_options,5,4.955,1.0,1.0,1.0,1.0,1.0
+tfidf_q_14588,tfidf,14588,change details on {{Account Type}} account,edit_account,5,3.236,1.0,1.0,1.0,1.0,1.0
+tfidf_q_20559,tfidf,20559,help to retrieve the password of my profile,recover_password,5,4.0856,0.9154906690818904,1.0,1.0,1.0,1.0
+tfidf_q_1965,tfidf,1965,I want help changing an article of purchase {{Order Number}},change_order,5,3.9809,0.7833880065603392,1.0,1.0,1.0,1.0
+tfidf_q_5291,tfidf,5291,wanna list  ur payment options could i get some help,check_payment_methods,5,3.576,0.5629314660082615,1.0,0.6,0.3333333333333333,0.6182885020492784
+tfidf_q_12683,tfidf,12683,do you ship  to {{Delivery Country}}?,delivery_options,5,4.6359,1.0,1.0,1.0,1.0,1.0
+tfidf_q_6993,tfidf,6993,I try to file a complaint against your company,complaint,5,4.1222,0.8644628595903064,1.0,1.0,1.0,1.0
+tfidf_q_14320,tfidf,14320,correcting information on platinum account,edit_account,5,4.2626,0.6657264425361932,1.0,1.0,1.0,1.0
+tfidf_q_7809,tfidf,7809,I need help to file a consumer reclamation,complaint,5,4.3882,0.9086954092796335,1.0,1.0,1.0,1.0
+tfidf_q_1570,tfidf,1570,change purchase {{Order Number}},change_order,5,3.8556,1.0,1.0,1.0,1.0,1.0
+tfidf_q_20925,tfidf,20925,need assistance reporting an error with a signup,registration_problems,5,3.6957,0.7682187570462375,1.0,0.4,0.5,0.6934264036172708
+tfidf_q_6007,tfidf,6007,I am trying to check your money back guarantee,check_refund_policy,5,4.4488,0.7305853135635668,1.0,1.0,1.0,1.0
+tfidf_q_9199,tfidf,9199,how to speak with somebody ?,contact_human_agent,5,4.1425,1.0,1.0,1.0,1.0,1.0
+tfidf_q_8915,tfidf,8915,can I talk to a person?,contact_human_agent,5,4.1551,0.8329459458642059,1.0,1.0,1.0,1.0
+tfidf_q_12541,tfidf,12541,is it possible to order from {{Delivery City}} ?,delivery_options,5,4.6971,1.0,1.0,1.0,1.0,1.0
+tfidf_q_23775,tfidf,23775,I have troubles setting up a new shipping address,set_up_shipping_address,5,3.3565,0.7826471717699295,1.0,1.0,1.0,1.0
+tfidf_q_17567,tfidf,17567,I have got to unsubscribe from your newsletter,newsletter_subscription,5,3.9606,0.8767244638096807,1.0,1.0,1.0,1.0
+tfidf_q_13276,tfidf,13276,I want to check how long it takes for the order to arrive,delivery_period,5,4.891,0.8466952459625378,1.0,1.0,1.0,1.0
+tfidf_q_3019,tfidf,3019,I want help to see the termination charges,check_cancellation_fee,5,4.9566,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_26380,tfidf,26380,I expect an rebate of {{Refund Amount}} dollars,track_refund,5,3.5801,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_3667,tfidf,3667,can you help me check the termination charge?,check_cancellation_fee,5,4.3208,0.7794568557599056,1.0,1.0,1.0,1.0
+tfidf_q_6909,tfidf,6909,I try to see in what situations can I request to be refunded,check_refund_policy,5,4.5417,0.9059075660298304,1.0,1.0,1.0,1.0
+tfidf_q_21027,tfidf,21027,I do not know how to notify of a sign-up error,registration_problems,5,4.5289,0.832164974826879,1.0,1.0,1.0,1.0
+tfidf_q_12657,tfidf,12657,how to see what delivery options you offer?,delivery_options,5,4.5398,0.9415848551292689,1.0,1.0,1.0,1.0
+tfidf_q_499,tfidf,499,I don't know what to do to cancel order {{Order Number}},cancel_order,5,4.7872,0.860562447193959,1.0,1.0,1.0,1.0
+tfidf_q_1120,tfidf,1120,assistance changing order {{Order Number}},change_order,5,4.1992,0.854352705860951,1.0,1.0,1.0,1.0
+tfidf_q_18855,tfidf,18855,I need to report errors with payment,payment_issue,5,4.0618,0.9091968939001166,1.0,0.8,1.0,1.0
+tfidf_q_837,tfidf,837,problems with cancelling purchase {{Order Number}},cancel_order,5,3.7373,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_2005,tfidf,2005,want support modifying the delivery address,change_shipping_address,5,3.6751,0.8439035809203786,1.0,1.0,1.0,1.0
+tfidf_q_24304,tfidf,24304,I don't know what I have to do to change to the {{Account Type}} account,switch_account,5,4.5622,0.9031981871415321,1.0,1.0,1.0,1.0
+tfidf_q_25311,tfidf,25311,checking status of order,track_order,5,4.1824,0.9115786524546027,1.0,1.0,1.0,1.0
+tfidf_q_9952,tfidf,9952,open gold account for wife,create_account,5,3.55,0.7415242953603084,1.0,1.0,1.0,1.0
+tfidf_q_25282,tfidf,25282,I can't check the current status of purchase {{Order Number}},track_order,5,4.4244,1.0,1.0,1.0,1.0,1.0
+tfidf_q_7798,tfidf,7798,where can i lodge a reclamation against ur business,complaint,5,3.8244,0.7740086754617318,1.0,1.0,1.0,1.0
+tfidf_q_22866,tfidf,22866,uhave a method to submit feedback for ur services,review,5,4.8108,0.6383957536473462,1.0,1.0,1.0,1.0
+tfidf_q_23697,tfidf,23697,need assistance entering my new shipping address,set_up_shipping_address,5,4.2493,0.9300268499785638,1.0,1.0,1.0,1.0
+tfidf_q_23095,tfidf,23095,help setting up my new delivery address,set_up_shipping_address,5,4.2695,0.9702597823174786,1.0,1.0,1.0,1.0
+tfidf_q_17927,tfidf,17927,I want help notifying of troubles with online paymnet,payment_issue,5,4.8498,0.8341631371708462,1.0,1.0,1.0,1.0
+tfidf_q_6261,tfidf,6261,I want to see under what circumstances can I request refunds,check_refund_policy,5,4.8905,0.9496718817057658,1.0,1.0,1.0,1.0
+tfidf_q_22701,tfidf,22701,I do not know how to submit some feedback for a servicd,review,5,4.6125,0.9356991910563506,1.0,1.0,1.0,1.0
+tfidf_q_12717,tfidf,12717,I want to check what methods for delivery you offer,delivery_options,5,5.1079,0.8938499731036635,1.0,1.0,1.0,1.0
+tfidf_q_8824,tfidf,8824,how can I check at what time I can call customer service?,contact_customer_service,5,4.3833,0.9750539011456733,1.0,1.0,1.0,1.0
+tfidf_q_560,tfidf,560,"I can't afford order {{Order Number}}, I need help to cancel it",cancel_order,5,4.4487,0.7309156916918993,1.0,1.0,1.0,1.0
+tfidf_q_12435,tfidf,12435,i want help to check the shipping methods,delivery_options,5,4.4488,0.7830481316306396,1.0,1.0,1.0,1.0
+tfidf_q_6414,tfidf,6414,help seeing in what cases can I ask for reimbursements,check_refund_policy,5,4.0075,0.9743519656780146,1.0,1.0,1.0,1.0
+tfidf_q_10116,tfidf,10116,can you help me create a freemium account?,create_account,5,4.1653,0.7940449491274147,1.0,1.0,1.0,1.0
+tfidf_q_3157,tfidf,3157,I don't know what I have to do to check the withdrawal fees,check_cancellation_fee,5,4.6235,0.7603893269414744,1.0,1.0,1.0,1.0
+tfidf_q_18417,tfidf,18417,how can I report troubles with online payment?,payment_issue,5,4.5454,0.8467048166435893,1.0,1.0,1.0,1.0
+tfidf_q_12895,tfidf,12895,can i place an oeder from {{Delivery City}},delivery_options,5,3.6934,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_18077,tfidf,18077,is it possible to report troubles with payments?,payment_issue,5,4.4445,0.7926851483993645,1.0,1.0,1.0,1.0
+tfidf_q_4625,tfidf,4625,could uhelp me see my goddamn invoikces from {{Person Name}},check_invoice,5,4.3614,0.5644448028642918,1.0,1.0,1.0,1.0
+tfidf_q_1154,tfidf,1154,how to change something of order {{Order Number}},change_order,5,4.3228,0.934011273832988,1.0,1.0,1.0,1.0
+tfidf_q_13943,tfidf,13943,changing information on {{Account Category}} account,edit_account,5,3.6006,0.9999999999999998,1.0,1.0,1.0,1.0
+tfidf_q_26252,tfidf,26252,help to see the status of my rebate,track_refund,5,4.4898,0.8822687327100567,1.0,1.0,1.0,1.0
+tfidf_q_6988,tfidf,6988,need to file a bloody consumer reclamation how can i do it,complaint,5,4.7465,0.6587999237254877,1.0,1.0,1.0,1.0
+tfidf_q_10276,tfidf,10276,I need help to open a standard account,create_account,5,5.4844,0.8509588635570958,1.0,1.0,1.0,1.0
+tfidf_q_9214,tfidf,9214,I do not know what I have to do to speak with an operator,contact_human_agent,5,4.3408,0.8811305750756359,1.0,1.0,1.0,1.0
+tfidf_q_21026,tfidf,21026,i cannot notify of a problem with a sign-up,registration_problems,5,4.1283,0.7392871332016577,1.0,1.0,1.0,1.0
+tfidf_q_13154,tfidf,13154,I have to check how soon can I expect the purchase,delivery_period,5,4.5827,0.9324689230190141,1.0,1.0,1.0,1.0
+tfidf_q_7677,tfidf,7677,i need help to lodge a customer claim agaisnt ur business,complaint,5,4.4592,0.6280397593125934,1.0,1.0,1.0,1.0
+tfidf_q_9931,tfidf,9931,is it possible to create a freemium account?,create_account,5,3.9921,0.7102930622599549,1.0,1.0,1.0,1.0
+tfidf_q_10569,tfidf,10569,I do not know what to do to open a {{Account Category}} account,create_account,5,4.5185,1.0,1.0,1.0,1.0,1.0
+tfidf_q_17696,tfidf,17696,"I want to receive your newsletter, how can I do it?",newsletter_subscription,5,4.6014,0.7891481399658004,1.0,1.0,1.0,1.0
+tfidf_q_25016,tfidf,25016,wana check the ETA of order {{Order Number}} will ya help me,track_order,5,4.5493,0.6605395641944375,1.0,1.0,1.0,1.0
+tfidf_q_8362,tfidf,8362,help checking what hours I can call customer service,contact_customer_service,5,4.0088,0.890376875856554,1.0,1.0,1.0,1.0
+tfidf_q_4568,tfidf,4568,I need help giving a quick look at the bill #00108,check_invoice,5,4.671,0.8352159900880836,1.0,1.0,1.0,1.0
+tfidf_q_3876,tfidf,3876,can you help me see the damn withdrawal charge?,check_cancellation_fee,5,4.9231,0.7550815585908277,1.0,1.0,1.0,1.0
+tfidf_q_1398,tfidf,1398,edit purchase {{Order Number}},change_order,5,3.5691,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_4894,tfidf,4894,i want help taking a quick look at the bills from {{Person Name}},check_invoice,5,4.1002,0.7372621605488925,1.0,1.0,1.0,1.0
+tfidf_q_9754,tfidf,9754,i dont know what i need to do to speak to a person,contact_human_agent,5,4.2513,0.8619955112876297,1.0,0.8,1.0,0.9558295932317544
+tfidf_q_9628,tfidf,9628,I do not know what I need to do to talk with an assistant,contact_human_agent,5,4.5591,0.8192286211466314,1.0,1.0,1.0,1.0
+tfidf_q_19903,tfidf,19903,have a question about the lost pass,recover_password,5,3.6298,1.0,1.0,0.8,1.0,0.9828920819566879
+tfidf_q_15164,tfidf,15164,could i get the damn invoice from {{Person Name}},get_invoice,5,3.838,0.757197225803542,1.0,0.8,1.0,0.9558295932317544
+tfidf_q_18371,tfidf,18371,i need help to inform of troubls with payment,payment_issue,5,4.3474,0.7703860587893147,1.0,1.0,1.0,1.0
+tfidf_q_15194,tfidf,15194,i want help getting my bills from {{Person Name}},get_invoice,5,3.9129,0.9673275044719862,1.0,1.0,1.0,1.0
+tfidf_q_11449,tfidf,11449,i dont know what i need to do to delete a {{Account Category}} account,delete_account,5,4.199,0.7961318678850277,1.0,0.8,1.0,1.0
+tfidf_q_6204,tfidf,6204,help me seeing in what cases can I ask for refunds,check_refund_policy,5,3.8593,0.87112591960683,1.0,1.0,1.0,1.0
+tfidf_q_18701,tfidf,18701,I don't knpw how to report payment issues,payment_issue,5,4.1564,0.8665145363108981,1.0,1.0,1.0,1.0
+tfidf_q_14352,tfidf,14352,editing details on freemium account,edit_account,5,3.7479,0.6762341353734445,1.0,1.0,1.0,1.0
+tfidf_q_16002,tfidf,16002,help to ask for a restitution of money,get_refund,5,4.1465,0.8048325859171316,1.0,1.0,1.0,1.0
+tfidf_q_10064,tfidf,10064,could you help me creating a new bloody freemium account?,create_account,5,4.3974,0.5166406858389868,1.0,0.8,1.0,0.9047172294870751
+tfidf_q_18633,tfidf,18633,report problems with payment,payment_issue,5,3.484,0.8770901114868661,1.0,0.8,1.0,1.0
+tfidf_q_7803,tfidf,7803,want assistance making a claim against ur company,complaint,5,3.3643,0.9371186750373834,1.0,1.0,1.0,1.0
+tfidf_q_21416,tfidf,21416,report issues creating user,registration_problems,5,3.4598,0.8696859152163223,1.0,1.0,1.0,1.0
+tfidf_q_13673,tfidf,13673,i dont know how to see how soon can i expect my item,delivery_period,5,5.9143,0.8396750385570905,1.0,1.0,1.0,1.0
+tfidf_q_25140,tfidf,25140,i cant see the current status of purchase {{Order Number}},track_order,5,4.0227,0.8606260290917899,1.0,1.0,1.0,1.0
+tfidf_q_5410,tfidf,5410,I have to see your allowed payment methods,check_payment_methods,5,4.1025,0.9152857531134669,1.0,1.0,1.0,1.0
+tfidf_q_17613,tfidf,17613,need help unsubscribing from ur newsletter,newsletter_subscription,5,3.4898,0.8699270396373889,1.0,1.0,1.0,1.0
+tfidf_q_15321,tfidf,15321,i want help downloading  my invoice from {{Person Name}},get_invoice,5,4.4586,1.0,1.0,1.0,1.0,1.0
+tfidf_q_19711,tfidf,19711,I want assistance ordering an article,place_order,5,3.4718,0.956452478773216,1.0,1.0,1.0,1.0
+tfidf_q_8958,tfidf,8958,want assistance talking with somebody,contact_human_agent,5,3.5794,1.0,1.0,0.8,1.0,0.9828920819566879
+tfidf_q_24110,tfidf,24110,wanna switch to the platinum accoun,switch_account,5,4.4019,0.48704197306928726,1.0,1.0,1.0,1.0
+tfidf_q_7800,tfidf,7800,I call to lodge a customer complaint against your company,complaint,5,3.8723,0.7508270723134937,1.0,1.0,1.0,1.0
+tfidf_q_26360,tfidf,26360,I do not know how to check the rebate current status,track_refund,5,4.7317,0.7900291865084785,1.0,1.0,1.0,1.0
+tfidf_q_10099,tfidf,10099,open another pro account,create_account,5,3.4934,0.8181057020405266,1.0,1.0,1.0,1.0
+tfidf_q_13471,tfidf,13471,could you help me to see how soon can I expect the product?,delivery_period,5,5.3649,0.8368211061664413,1.0,1.0,1.0,1.0
+tfidf_q_7293,tfidf,7293,want assistance to make a reclamation against ur business,complaint,5,4.4821,0.7798226609603399,1.0,1.0,1.0,1.0
+tfidf_q_24764,tfidf,24764,I do not know how I can switch to tbe {{Account Category}} account,switch_account,5,4.4723,0.8749049869863971,1.0,1.0,1.0,1.0
+tfidf_q_16415,tfidf,16415,can you help me getting a reimbursement?,get_refund,5,4.1011,0.5779878162275606,1.0,0.2,0.25,0.43067655807339306
+tfidf_q_6059,tfidf,6059,need help to check in which cases can i ask to be refunded,check_refund_policy,5,4.541,0.9781150472476772,1.0,1.0,1.0,1.0
+tfidf_q_26525,tfidf,26525,I am waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund,5,5.5234,1.0,1.0,1.0,1.0,1.0
+tfidf_q_5861,tfidf,5861,help me check ur allowed payment modalities,check_payment_methods,5,4.1293,0.8147107416672301,1.0,1.0,1.0,1.0
+tfidf_q_18466,tfidf,18466,how could I inform of issues with payment?,payment_issue,5,3.9062,0.8598072036776706,1.0,0.8,1.0,0.9558295932317544
+tfidf_q_8271,tfidf,8271,how can i contact customer support,contact_customer_service,5,4.4883,0.7483006636459777,1.0,1.0,1.0,1.0
+tfidf_q_3008,tfidf,3008,is it possible to check the withdrawal charges,check_cancellation_fee,5,4.8569,0.8656845929605348,1.0,1.0,1.0,1.0
+tfidf_q_11852,tfidf,11852,I need assistance to delete my {{Account Type}} account,delete_account,5,4.7831,0.914782864099802,1.0,1.0,1.0,1.0
+tfidf_q_10253,tfidf,10253,opening new {{Account Category}} account for daughter,create_account,5,3.3637,1.0,1.0,1.0,1.0,1.0
+tfidf_q_11315,tfidf,11315,find information about the deletion of a {{Account Type}} account,delete_account,5,3.8596,0.9236297629108925,1.0,1.0,1.0,1.0
+tfidf_q_6870,tfidf,6870,could I see in which cases can I ask to be refunded?,check_refund_policy,5,4.489,0.9012232339728259,1.0,1.0,1.0,1.0
+tfidf_q_11762,tfidf,11762,I do not know what to do to close the {{Account Category}} account,delete_account,5,4.6822,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_14964,tfidf,14964,need to get the invoices from {{Person Name}},get_invoice,5,4.6241,0.9638549690845782,1.0,1.0,1.0,1.0
+tfidf_q_20808,tfidf,20808,I have a question about the lost pass,recover_password,5,4.3096,1.0,1.0,0.8,1.0,0.9828920819566879
+tfidf_q_17501,tfidf,17501,unsubscribe to your damn company newsletter,newsletter_subscription,5,4.8404,0.8555334242093903,1.0,1.0,1.0,1.0
+tfidf_q_21121,tfidf,21121,I am experiencing an problem registering,registration_problems,5,3.5245,0.5320588345058934,1.0,1.0,1.0,1.0
+tfidf_q_23288,tfidf,23288,where to set up my new shipping address?,set_up_shipping_address,5,4.1094,0.9075162884838669,1.0,1.0,1.0,1.0
+tfidf_q_20221,tfidf,20221,want help restoring the pin code of my user,recover_password,5,4.6605,0.9586451709049512,1.0,1.0,1.0,1.0
+tfidf_q_22741,tfidf,22741,I am trying to leave feedback for a service,review,5,4.0685,0.8023649449944151,1.0,1.0,1.0,1.0
+tfidf_q_2867,tfidf,2867,need assistance with a address update,change_shipping_address,5,3.7447,0.7929561644405488,1.0,0.8,1.0,1.0
+tfidf_q_15215,tfidf,15215,I'm trying to get my damn bills from {{Person Name}},get_invoice,5,5.206,0.8964361957552452,1.0,0.6,1.0,0.9674679834891693
+tfidf_q_1971,tfidf,1971,remove a damn product from order {{Order Number}},change_order,5,3.7026,0.5623790150902349,1.0,1.0,1.0,1.0
+tfidf_q_840,tfidf,840,help with cancelling purchase {{Order Number}},cancel_order,5,4.4989,1.0,1.0,1.0,1.0,1.0
+tfidf_q_26377,tfidf,26377,showing refund status,track_refund,5,3.877,0.7750388677829648,1.0,1.0,1.0,1.0
+tfidf_q_7784,tfidf,7784,"I am unhappy with your work, how do I lodge a reclamation?",complaint,5,3.6089,0.7162160227866109,1.0,1.0,1.0,1.0
+tfidf_q_14304,tfidf,14304,editing details on {{Account Type}} account,edit_account,5,3.0248,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_2907,tfidf,2907,I want support modifying the shipping address,change_shipping_address,5,4.4886,0.8425806038383353,1.0,1.0,1.0,1.0
+tfidf_q_364,tfidf,364,I can no longer afford purchase {{Order Number}},cancel_order,5,4.0104,1.0,1.0,1.0,1.0,1.0
+tfidf_q_19540,tfidf,19540,i dont know how to earn a product,place_order,5,4.5805,0.8203453553372205,1.0,1.0,1.0,1.0
+tfidf_q_13179,tfidf,13179,i want assistance to see how soon can i expect the item,delivery_period,5,4.9122,0.803168514735404,1.0,1.0,1.0,1.0
+tfidf_q_17187,tfidf,17187,how can i cancel my subscription to ur corporate newsletter,newsletter_subscription,5,4.7242,0.8596850382136924,1.0,1.0,1.0,1.0
+tfidf_q_3642,tfidf,3642,where doi see the withdrawal penalties,check_cancellation_fee,5,3.5166,0.6499110402915743,1.0,1.0,1.0,1.0
+tfidf_q_10613,tfidf,10613,open freemium account,create_account,5,3.3507,1.0,1.0,1.0,1.0,1.0
+tfidf_q_5368,tfidf,5368,I want assistance checking the available payment options,check_payment_methods,5,4.0205,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_3127,tfidf,3127,i try to check the cancellation fee,check_cancellation_fee,5,4.1588,0.8133967469085236,1.0,1.0,1.0,1.0
+tfidf_q_25505,tfidf,25505,"I want to see the status of order {{Order Number}}, I need help",track_order,5,4.4169,0.872270495366553,1.0,1.0,1.0,1.0
+tfidf_q_12115,tfidf,12115,can ya help me to see what shipment options i can choose,delivery_options,5,4.128,0.830002362463697,1.0,1.0,1.0,1.0
+tfidf_q_11815,tfidf,11815,i no lomger need my damn gold account can uhelp me delete it,delete_account,5,4.8892,0.5120598843772052,1.0,0.6,1.0,0.9674679834891693
+tfidf_q_6458,tfidf,6458,i have to check in which cases can i ask for a reimbursement,check_refund_policy,5,4.3689,0.9444508432516303,1.0,1.0,1.0,1.0
+tfidf_q_23578,tfidf,23578,troubles setting up a goddamn delivery address,set_up_shipping_address,5,4.5273,0.7476018797807753,1.0,1.0,1.0,1.0
+tfidf_q_2607,tfidf,2607,i have an issue trying to update my shipping address,change_shipping_address,5,4.3112,0.75676212432882,1.0,1.0,1.0,1.0
+tfidf_q_19311,tfidf,19311,need help to earn an item,place_order,5,4.1314,0.8569247606601129,1.0,1.0,1.0,1.0
+tfidf_q_8601,tfidf,8601,could you help me to speak to customer support?,contact_customer_service,5,5.6471,0.8864739639652384,1.0,1.0,1.0,1.0
+tfidf_q_4254,tfidf,4254,i have lost my bill from {{Person Name}} find it for me,check_invoice,5,4.1191,0.8295662887699258,1.0,1.0,1.0,1.0
+tfidf_q_5436,tfidf,5436,I would like to list the payment modalities,check_payment_methods,5,4.4998,0.7223329889983171,1.0,1.0,1.0,1.0
+tfidf_q_15160,tfidf,15160,i dont know  what i have to do to download the bill #37777,get_invoice,5,4.5994,0.8940138846710388,1.0,1.0,1.0,1.0
+tfidf_q_7889,tfidf,7889,can uhelp me to make a complaint againsy ur business,complaint,5,4.6905,0.6117437449081505,1.0,1.0,1.0,1.0
+tfidf_q_23265,tfidf,23265,is it possible to set up the secondary shipping address,set_up_shipping_address,5,4.4065,0.8280642586762471,1.0,1.0,1.0,1.0
+tfidf_q_11672,tfidf,11672,i have problems with the deletion of my premium account,delete_account,5,4.9764,0.7730574307891501,1.0,1.0,1.0,1.0
+tfidf_q_264,tfidf,264,help me cancel purchase {{Order Number}},cancel_order,5,4.4096,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_247,tfidf,247,I cannot afford order {{Order Number}},cancel_order,5,3.53,1.0,1.0,1.0,1.0,1.0
+tfidf_q_22537,tfidf,22537,is there a seection to send my feedback for ur services,review,5,4.3944,0.8515716473871544,1.0,1.0,1.0,1.0
+tfidf_q_20037,tfidf,20037,can you help me resetting the pwd of my user?,recover_password,5,4.2595,0.6683774183733455,1.0,1.0,1.0,1.0
+tfidf_q_23631,tfidf,23631,there is an issue submitting a deilvery address,set_up_shipping_address,5,3.5072,0.6348354668503928,1.0,0.8,1.0,1.0
+tfidf_q_18450,tfidf,18450,"I have to inform of damn payment errors, how can I do it?",payment_issue,5,4.36,0.6224853970009001,1.0,0.8,1.0,1.0
+tfidf_q_25984,tfidf,25984,help to see if there is anything wrong with the refund,track_refund,5,5.0849,0.8713630276636871,1.0,1.0,1.0,1.0
+tfidf_q_23312,tfidf,23312,i have problems setting the new delivery address up,set_up_shipping_address,5,3.7926,0.8407678472451295,1.0,1.0,1.0,1.0
+tfidf_q_3253,tfidf,3253,I am trying to check the withdrawal charge,check_cancellation_fee,5,4.2614,0.7894771643091621,1.0,1.0,1.0,1.0
+tfidf_q_10358,tfidf,10358,what do i have to do to createa premium account,create_account,5,5.7652,0.7984593572276953,0.0,0.0,0.0,0.0
+tfidf_q_23957,tfidf,23957,use freemium account,switch_account,5,3.7669,0.7266785627912887,1.0,0.2,1.0,1.0
+tfidf_q_20659,tfidf,20659,help to retrieve my user PIN,recover_password,5,4.8715,0.919096496009728,1.0,1.0,1.0,1.0
+tfidf_q_6586,tfidf,6586,I need help checking how long rdimbursements take,check_refund_policy,5,3.8895,0.6390614899912054,1.0,0.6,0.3333333333333333,0.6182885020492784
+tfidf_q_24435,tfidf,24435,where can i switch to  the {{Account Category}} account,switch_account,5,5.0181,0.8115707534568348,1.0,1.0,1.0,1.0
+tfidf_q_18125,tfidf,18125,can ya help me informing  of problems with online payment,payment_issue,5,4.3262,0.7043831930716995,1.0,0.8,1.0,1.0
+tfidf_q_17667,tfidf,17667,help unsubscribing from your newsletter,newsletter_subscription,5,3.9566,0.966073873122279,1.0,1.0,1.0,1.0
+tfidf_q_24637,tfidf,24637,change to the {{Account Type}} account,switch_account,5,4.2695,1.0,1.0,1.0,1.0,1.0
+tfidf_q_893,tfidf,893,i do not know how to cancel purchase {{Order Number}},cancel_order,5,4.2615,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_10680,tfidf,10680,new {{Account Category}} account for wife,create_account,5,3.68,1.0,1.0,1.0,1.0,1.0
+tfidf_q_9572,tfidf,9572,"I don't understand you, help talking to a goddamn person",contact_human_agent,5,4.11,0.6829143911584945,1.0,1.0,1.0,1.0
+tfidf_q_10806,tfidf,10806,opening new standard account,create_account,5,3.4431,0.8016007902967888,1.0,1.0,1.0,1.0
+tfidf_q_21719,tfidf,21719,"I need to report a fucking registration error, help me",registration_problems,5,4.074,0.8171877738769723,1.0,1.0,1.0,1.0
+tfidf_q_493,tfidf,493,how can I cancel order {{Order Number}}?,cancel_order,5,4.1762,0.8600160545006652,1.0,1.0,1.0,1.0
+tfidf_q_26392,tfidf,26392,I'm waiting for a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund,5,3.7542,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_20325,tfidf,20325,i have to reset the pin code of my profile,recover_password,5,4.0272,0.8423847723115244,1.0,1.0,1.0,1.0
+tfidf_q_12547,tfidf,12547,is it possibleto place an order from {{Delivery City}},delivery_options,5,3.8898,1.0,1.0,1.0,1.0,1.0
+tfidf_q_12302,tfidf,12302,what are the available shipment options?,delivery_options,5,3.7939,0.5907928860358208,1.0,0.4,1.0,0.9197207891481876
+tfidf_q_14349,tfidf,14349,edit details on freemium account,edit_account,5,3.595,0.6885304731212966,1.0,1.0,1.0,1.0
+tfidf_q_23170,tfidf,23170,is it possible to enter another shipping address,set_up_shipping_address,5,4.5162,0.8060179937242604,1.0,1.0,1.0,1.0
+tfidf_q_17730,tfidf,17730,"I have to receive your newsletter, can you help me?",newsletter_subscription,5,4.8009,0.9023824810348762,1.0,1.0,1.0,1.0
+tfidf_q_24019,tfidf,24019,help using the {{Account Category}} account,switch_account,5,4.3948,1.0,1.0,1.0,1.0,1.0
+tfidf_q_10683,tfidf,10683,I need an {{Account Type}} account,create_account,5,3.6577,0.7191566660290646,1.0,1.0,1.0,1.0
+tfidf_q_19643,tfidf,19643,is it possible to acquire an article?,place_order,5,3.8377,0.7276881907613844,1.0,1.0,1.0,1.0
+tfidf_q_7331,tfidf,7331,help to make a consumer claim against your company,complaint,5,5.2269,0.8846040225500503,1.0,1.0,1.0,1.0
+tfidf_q_15216,tfidf,15216,i try to get my invoices from {{Person Name}},get_invoice,5,4.0836,0.8922937963399894,1.0,1.0,1.0,1.0
+tfidf_q_16712,tfidf,16712,how do I get a rebate?,get_refund,5,4.8748,0.6372595962086144,1.0,1.0,1.0,1.0
+tfidf_q_2460,tfidf,2460,i have an issue editing my address,change_shipping_address,5,3.4264,0.7266284800377705,1.0,1.0,1.0,1.0
+tfidf_q_8736,tfidf,8736,i have gog to speak to customer support,contact_customer_service,5,4.0618,0.6049106687307423,1.0,1.0,1.0,1.0
+tfidf_q_9696,tfidf,9696,could ya help me to speak wqith somebody,contact_human_agent,5,4.5762,0.6395794762986333,1.0,0.2,0.25,0.43067655807339306
+tfidf_q_4103,tfidf,4103,i want assistance taking a quick look at the invoice #00108,check_invoice,5,4.2828,0.817050664906878,1.0,1.0,1.0,1.0
+tfidf_q_11979,tfidf,11979,do you deliver to {{Delivery Country}}?,delivery_options,5,5.1315,1.0000000000000004,1.0,1.0,1.0,1.0
+tfidf_q_6448,tfidf,6448,I try to check how long reimbursements usually take,check_refund_policy,5,3.8832,0.9224009675336612,1.0,1.0,1.0,1.0
+tfidf_q_9101,tfidf,9101,what do I have to do to chat with an operator?,contact_human_agent,5,5.9839,0.8695871980705842,1.0,1.0,1.0,1.0
+tfidf_q_9064,tfidf,9064,can you help me contact somebody?,contact_human_agent,5,3.7247,0.7917903256975637,1.0,1.0,1.0,1.0
+tfidf_q_8322,tfidf,8322,I want help seeing what hours I can reach customer service,contact_customer_service,5,4.662,0.8448055942406252,1.0,1.0,1.0,1.0
+tfidf_q_2393,tfidf,2393,I try to edit the address,change_shipping_address,5,4.469,0.8219952350524828,1.0,1.0,1.0,1.0
+tfidf_q_6341,tfidf,6341,I would like to see in which cases can I ask for refunds,check_refund_policy,5,5.4307,0.844076521042215,1.0,1.0,1.0,1.0
+tfidf_q_11290,tfidf,11290,i have to delete the fucking freemium account i need help,delete_account,5,4.4084,0.5305918610739927,1.0,1.0,1.0,1.0
+tfidf_q_7148,tfidf,7148,help filing a customer reclamation against ur company,complaint,5,3.5047,0.8417280975177488,1.0,1.0,1.0,1.0
+tfidf_q_9298,tfidf,9298,i try to speak with someone,contact_human_agent,5,4.3652,1.0,1.0,1.0,1.0,1.0
+tfidf_q_2332,tfidf,2332,how can i find information about correcting the address,change_shipping_address,5,4.0517,0.7956783829630372,1.0,1.0,1.0,1.0
+tfidf_q_11540,tfidf,11540,I want assistance to delete a bloody gold account,delete_account,5,4.5185,0.6620490439832127,1.0,0.8,1.0,0.9047172294870751
+tfidf_q_8041,tfidf,8041,how can i talk wiht customer service,contact_customer_service,5,3.672,0.6381870505780093,1.0,0.8,1.0,1.0
+tfidf_q_13470,tfidf,13470,I call to see when my parcel is going to arrive,delivery_period,5,4.0597,0.8933532075340405,1.0,1.0,1.0,1.0
+tfidf_q_8172,tfidf,8172,I need to talk with customer service,contact_customer_service,5,4.9306,0.900384295486294,1.0,1.0,1.0,1.0
+tfidf_q_353,tfidf,353,I need help canceling purchase {{Order Number}},cancel_order,5,4.397,1.0,1.0,1.0,1.0,1.0
+tfidf_q_16518,tfidf,16518,i want assistance to get rebates of my money,get_refund,5,5.059,1.0,1.0,1.0,1.0,1.0
+tfidf_q_17733,tfidf,17733,where to cancel the newsletter subscription ?,newsletter_subscription,5,4.2605,0.8598597024516772,1.0,1.0,1.0,1.0
+tfidf_q_9490,tfidf,9490,I want assistance to contact an operator,contact_human_agent,5,4.708,0.9472973543934715,1.0,1.0,1.0,1.0
+tfidf_q_20138,tfidf,20138,wany help to reset the access key of my account,recover_password,5,5.5836,0.8507367083189876,1.0,1.0,1.0,1.0
+tfidf_q_20341,tfidf,20341,where do I restore the password of my account?,recover_password,5,4.1974,0.9093973568366308,1.0,1.0,1.0,1.0
+tfidf_q_14096,tfidf,14096,updating data on standard account,edit_account,5,3.691,0.6881389874494572,1.0,1.0,1.0,1.0
+tfidf_q_15047,tfidf,15047,i need assistance to get my invoices  from {{Person Name}},get_invoice,5,4.2415,0.9239592034889426,1.0,1.0,1.0,1.0
+tfidf_q_13638,tfidf,13638,I try to see when will my product arrive,delivery_period,5,4.7157,0.903834675068894,1.0,1.0,1.0,1.0
+tfidf_q_22835,tfidf,22835,i call to submit feedback about ur services,review,5,5.6664,0.7963546807624239,1.0,1.0,1.0,1.0
+tfidf_q_19919,tfidf,19919,I cannot reset my user profile PIN,recover_password,5,3.4523,0.8365826780244342,1.0,1.0,1.0,1.0
+tfidf_q_26530,tfidf,26530,I try to see if there are any news on my reimbursement,track_refund,5,4.8387,0.8447164216528402,1.0,1.0,1.0,1.0
+tfidf_q_24180,tfidf,24180,I need help changing to the platinum account,switch_account,5,4.4972,0.9622677600560433,1.0,1.0,1.0,1.0
+tfidf_q_3210,tfidf,3210,I have to check the cancellation charge,check_cancellation_fee,5,4.6389,0.9006854298715463,1.0,1.0,1.0,1.0
+tfidf_q_18900,tfidf,18900,i do not know what i need to do to buy several items,place_order,5,4.2955,0.8202274251502093,1.0,1.0,1.0,1.0
+tfidf_q_9681,tfidf,9681,can you help me speaking with somebody?,contact_human_agent,5,3.8257,0.7620284358498914,1.0,0.8,1.0,0.9558295932317544
+tfidf_q_25086,tfidf,25086,seeing order {{Order Number}} current status,track_order,5,3.2374,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_21158,tfidf,21158,I want to inform of an error with a damn signup,registration_problems,5,4.2273,0.6714210455534593,1.0,1.0,1.0,1.0
+tfidf_q_16239,tfidf,16239,where can I demand a refund?,get_refund,5,3.8738,0.5545579711058465,1.0,1.0,1.0,1.0
+tfidf_q_8514,tfidf,8514,I do not know what to do to speak with customer service,contact_customer_service,5,4.7897,0.797727819793944,1.0,0.8,1.0,1.0
+tfidf_q_1350,tfidf,1350,i have to delete som items from purchase {{Order Number}},change_order,5,4.2948,0.6437523365981088,1.0,0.8,1.0,0.9558295932317544
+tfidf_q_10102,tfidf,10102,I need information about opening premium accounts,create_account,5,3.1719,0.6863652210762565,1.0,1.0,1.0,1.0
+tfidf_q_21883,tfidf,21883,where to notify of an error with signup?,registration_problems,5,4.0004,0.9040669483780804,1.0,1.0,1.0,1.0
+tfidf_q_21922,tfidf,21922,i want assistance to leave feedback aboutur products,review,5,4.6132,0.5733471009829428,1.0,1.0,1.0,1.0
+tfidf_q_5593,tfidf,5593,help to see ur accepted payment emthods,check_payment_methods,5,4.7917,0.6289695490781724,1.0,1.0,1.0,1.0
+tfidf_q_21441,tfidf,21441,where to reoprt errors with signup?,registration_problems,5,5.1237,0.5255742509239866,1.0,0.8,0.5,0.7606395682357036
+tfidf_q_3662,tfidf,3662,see early exit penalty,check_cancellation_fee,5,3.3109,0.7640246078253621,1.0,1.0,1.0,1.0
+tfidf_q_1325,tfidf,1325,how do ii modify order {{Order Number}},change_order,5,4.3818,0.7561787427504941,1.0,1.0,1.0,1.0
+tfidf_q_17385,tfidf,17385,I want to subscribe to the newsletter,newsletter_subscription,5,4.6232,0.8912682809770067,1.0,1.0,1.0,1.0
+tfidf_q_6997,tfidf,6997,I don't know what to do to file a claim against your company,complaint,5,4.2681,0.6890728461590254,1.0,1.0,1.0,1.0
+tfidf_q_16508,tfidf,16508,can you help me to ask for a reimbursement of my money?,get_refund,5,4.301,0.8257798949924859,1.0,1.0,1.0,1.0
+tfidf_q_15925,tfidf,15925,when can I expect a refund,get_refund,5,3.6654,0.4978761819480234,0.0,0.0,0.0,0.0
+tfidf_q_20088,tfidf,20088,csn ya help me reset the password of my account,recover_password,5,4.2414,0.5677469643842127,1.0,1.0,1.0,1.0
+tfidf_q_2386,tfidf,2386,"I have entered a wrong goddamn address, how could I edit it?",change_shipping_address,5,3.5937,0.5272620507881621,1.0,1.0,1.0,1.0
+tfidf_q_13714,tfidf,13714,where could I see when will my purchase arrive?,delivery_period,5,3.4937,0.8054348917423019,1.0,1.0,1.0,1.0
+tfidf_q_26089,tfidf,26089,I am trying to check my compensation current status,track_refund,5,4.3746,0.7352074723986491,1.0,1.0,1.0,1.0
+tfidf_q_12993,tfidf,12993,what do I need to do to see how soon can I expect my item?,delivery_period,5,4.5346,0.8126386053651602,1.0,1.0,1.0,1.0
+tfidf_q_1696,tfidf,1696,i want help adding an item to purchase {{Order Number}},change_order,5,4.3798,1.0,1.0,1.0,1.0,1.0
+tfidf_q_17760,tfidf,17760,receive company newsletter,newsletter_subscription,5,3.1969,0.6278492079829667,1.0,1.0,1.0,1.0
+tfidf_q_1175,tfidf,1175,help me to change several products of purchase {{Order Number}},change_order,5,4.4051,0.7852980198933441,1.0,1.0,1.0,1.0
+tfidf_q_10780,tfidf,10780,tell me more about opening gold accounts,create_account,5,4.2254,0.6465318493053878,1.0,0.8,1.0,1.0
+tfidf_q_6217,tfidf,6217,inwhat situations can I ask to be reimbursed?,check_refund_policy,5,4.7457,0.7761092422522415,1.0,1.0,1.0,1.0
+tfidf_q_17758,tfidf,17758,want help to receive ur company newsletter,newsletter_subscription,5,4.201,0.9205266745451224,1.0,1.0,1.0,1.0
+tfidf_q_23686,tfidf,23686,assistance to enter my shipping address,set_up_shipping_address,5,4.4349,0.9029941291898872,1.0,1.0,1.0,1.0
+tfidf_q_23479,tfidf,23479,I do not know how I can set up my shipping address,set_up_shipping_address,5,3.8012,0.8364803884234067,1.0,1.0,1.0,1.0
+tfidf_q_16827,tfidf,16827,what do I have to do to demand reimbursements of my money?,get_refund,5,4.5676,0.9999999999999999,1.0,1.0,1.0,1.0
+tfidf_q_3387,tfidf,3387,"I want to check the early exit fee, could you help me?",check_cancellation_fee,5,4.572,0.7735978578839665,1.0,1.0,1.0,1.0
+tfidf_q_7509,tfidf,7509,I don't know what to do to file a consumer claim,complaint,5,4.453,0.7967441515658223,1.0,1.0,1.0,1.0
+tfidf_q_12081,tfidf,12081,I am calling to see what delivery methods you offer,delivery_options,5,4.7377,0.7951089165114786,1.0,1.0,1.0,1.0
+tfidf_q_18915,tfidf,18915,where to pucrhase some items,place_order,5,4.117,0.592864345456687,1.0,1.0,1.0,1.0
+tfidf_q_17172,tfidf,17172,where to sign up to the newsleter,newsletter_subscription,5,4.2415,0.666956401227396,1.0,1.0,1.0,1.0
+tfidf_q_12981,tfidf,12981,how can I see how son can I expect my package?,delivery_period,5,4.1049,0.6866020826995055,1.0,1.0,1.0,1.0
+tfidf_q_6325,tfidf,6325,can i check under which circumstances can i request a refund,check_refund_policy,5,3.5634,0.8425824189110789,1.0,1.0,1.0,1.0
+tfidf_q_19132,tfidf,19132,how to shop a product?,place_order,5,4.1992,0.8714553596656934,1.0,1.0,1.0,1.0
+tfidf_q_19481,tfidf,19481,I need help shopping several of your item,place_order,5,3.8507,0.9422212126353406,1.0,1.0,1.0,1.0
+tfidf_q_23090,tfidf,23090,need assistance submitting a shipping address,set_up_shipping_address,5,3.6454,0.589523771757857,1.0,0.8,1.0,1.0
+tfidf_q_5975,tfidf,5975,show me in which situations can I ask to be reimbursed,check_refund_policy,5,4.859,0.8441993686576024,1.0,1.0,1.0,1.0
+tfidf_q_25283,tfidf,25283,where do I check my last purchase estimated time of arrival?,track_order,5,4.3276,0.641467099718945,1.0,1.0,1.0,1.0
+tfidf_q_17297,tfidf,17297,what do I have to do to receive your company newsletter?,newsletter_subscription,5,4.453,0.7519881549178342,1.0,1.0,1.0,1.0
+tfidf_q_3153,tfidf,3153,where to see the early termination fees?,check_cancellation_fee,5,4.3794,0.8817641140270613,1.0,1.0,1.0,1.0
+tfidf_q_18327,tfidf,18327,can ya help me to notify of an error with online payment,payment_issue,5,4.3225,0.8214032692164971,1.0,0.8,0.5,0.7606395682357036
+tfidf_q_10493,tfidf,10493,create new premium account for daughter,create_account,5,3.5845,0.8045494404679584,1.0,1.0,1.0,1.0
+tfidf_q_17369,tfidf,17369,i dont know how to sign up to the newsletter,newsletter_subscription,5,3.9727,0.8596833369984541,1.0,1.0,1.0,1.0
+tfidf_q_23621,tfidf,23621,"I have to enter the shipping address, how do I do it?",set_up_shipping_address,5,5.127,0.7577100056264053,1.0,1.0,1.0,1.0
+tfidf_q_4702,tfidf,4702,I need assistance giving a quick look at bill #37777,check_invoice,5,4.0445,0.9498262385583516,1.0,1.0,1.0,1.0
+tfidf_q_8530,tfidf,8530,i dont know what to do to talk to customer support,contact_customer_service,5,4.6561,0.7837351369172475,1.0,1.0,1.0,1.0
+tfidf_q_17296,tfidf,17296,cancel the subscription to your corporate newsletter,newsletter_subscription,5,4.1198,0.9366428538255926,1.0,1.0,1.0,1.0
+tfidf_q_85,tfidf,85,what do I have to do to cancel order {{Order Number}}?,cancel_order,5,4.1225,1.0,1.0,1.0,1.0,1.0
+tfidf_q_11805,tfidf,11805,"I do not use the damn gold account, I am trying to close it",delete_account,5,4.5883,0.4841236030448645,1.0,0.6,0.5,0.6797310500037655
+tfidf_q_802,tfidf,802,need help to cancel purchase {{Order Number}},cancel_order,5,4.0843,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_25477,tfidf,25477,need help seeing the eta of the purchase {{Order Number}},track_order,5,4.6304,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_12220,tfidf,12220,deliverids to {{Delivery Country}},delivery_options,5,4.3611,1.0,1.0,1.0,1.0,1.0
+tfidf_q_8628,tfidf,8628,help me to see at what time I can contact customer support,contact_customer_service,5,4.7895,0.9416299811253823,1.0,1.0,1.0,1.0
+tfidf_q_19791,tfidf,19791,how do i purchase an item,place_order,5,3.9995,0.6935537175507396,1.0,1.0,1.0,1.0
+tfidf_q_16874,tfidf,16874,i try to receive compensations of money,get_refund,5,4.2341,0.7492346212508418,1.0,1.0,1.0,1.0
+tfidf_q_2107,tfidf,2107,tgell me more about a shipping address update,change_shipping_address,5,4.139,0.7501486960379519,1.0,0.8,1.0,0.9047172294870751
+tfidf_q_9004,tfidf,9004,speak to an assistant,contact_human_agent,5,4.4013,0.8863573185680964,1.0,1.0,1.0,1.0
+tfidf_q_5277,tfidf,5277,can I check your fucking accepted payment options?,check_payment_methods,5,3.5117,0.7668690184475376,1.0,1.0,1.0,1.0
+tfidf_q_4932,tfidf,4932,help me check ur available payment options,check_payment_methods,5,3.5782,0.8333067984330954,1.0,1.0,1.0,1.0
+tfidf_q_14505,tfidf,14505,correct information on gold account,edit_account,5,3.1968,0.7693548471416841,1.0,1.0,1.0,1.0
+tfidf_q_10001,tfidf,10001,"I do not have a freemium account, I try to register",create_account,5,4.042,0.6427350078452893,1.0,0.8,1.0,1.0
+tfidf_q_20957,tfidf,20957,help reporting fucking signup problems,registration_problems,5,3.8156,0.5534948954758604,1.0,0.8,1.0,1.0
+tfidf_q_13994,tfidf,13994,modifying {{Account Type}} account,edit_account,5,3.1058,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_3471,tfidf,3471,i do not know how i can see the early exit penalties,check_cancellation_fee,5,3.9112,0.8795751499073137,1.0,1.0,1.0,1.0
+tfidf_q_8164,tfidf,8164,I want to check at what time customer support available is,contact_customer_service,5,4.548,0.9505136450856914,1.0,1.0,1.0,1.0
+tfidf_q_24800,tfidf,24800,want assistance switching to the {{Account Type}} account,switch_account,5,4.0703,0.9241962794266172,1.0,1.0,1.0,1.0
+tfidf_q_1660,tfidf,1660,i do not know how to change a product of order {{Order Number}},change_order,5,4.7972,0.8238501486245621,1.0,1.0,1.0,1.0
+tfidf_q_19451,tfidf,19451,how can I acquire a product?,place_order,5,3.8402,0.8597913778990227,1.0,1.0,1.0,1.0
+tfidf_q_26791,tfidf,26791,assistance to see the restitution status,track_refund,5,4.3546,0.8554550021333535,1.0,1.0,1.0,1.0
+tfidf_q_11648,tfidf,11648,what do I have to do to cancel my {{Account Category}} account?,delete_account,5,4.8073,0.7792505700803625,1.0,1.0,1.0,1.0
+tfidf_q_21265,tfidf,21265,I want assistance to inform of a problem with registrations,registration_problems,5,4.5757,1.0,1.0,0.8,1.0,0.9828920819566879
+tfidf_q_4212,tfidf,4212,wanna find my bills from {{Person Name}} how do i do it,check_invoice,5,4.239,0.6917676847318145,1.0,1.0,1.0,1.0
+tfidf_q_16406,tfidf,16406,i try to obtain restitutions of money,get_refund,5,4.5722,0.9045000860957805,1.0,1.0,1.0,1.0
+tfidf_q_14333,tfidf,14333,change info on standard account,edit_account,5,3.5194,0.6799050390895622,1.0,1.0,1.0,1.0
+tfidf_q_18685,tfidf,18685,i want assistance to notify of errors with online payment,payment_issue,5,4.8075,0.8903519070374852,1.0,1.0,1.0,1.0
+tfidf_q_16180,tfidf,16180,i want assistance to ask for a reimbursement of money,get_refund,5,4.1529,0.7917826618079772,1.0,1.0,1.0,1.0
+tfidf_q_15670,tfidf,15670,can you help me downloading my bill #85632?,get_invoice,5,4.1083,0.5937166888202229,1.0,1.0,1.0,1.0
+tfidf_q_18729,tfidf,18729,errors with online payments,payment_issue,5,3.1885,0.7703185666467899,1.0,1.0,1.0,1.0
+tfidf_q_393,tfidf,393,I'm trying to cancel order {{Order Number}},cancel_order,5,4.0386,1.0,1.0,1.0,1.0,1.0
+tfidf_q_447,tfidf,447,I can no longer afford order {{Order Number}},cancel_order,5,3.8155,1.0,1.0,1.0,1.0,1.0
+tfidf_q_20869,tfidf,20869,where could I retrieve my profile access key?,recover_password,5,3.8386,0.7117490711766109,1.0,1.0,1.0,1.0
+tfidf_q_8566,tfidf,8566,help checking what hours I can call customer assistance,contact_customer_service,5,3.9239,0.880268395801334,1.0,1.0,1.0,1.0
+tfidf_q_7372,tfidf,7372,help making a customer reclamation against ur company,complaint,5,3.7913,0.9229954586459236,1.0,1.0,1.0,1.0
+tfidf_q_2528,tfidf,2528,I want assistance to change the address,change_shipping_address,5,4.301,0.9320257799568518,1.0,1.0,1.0,1.0
+tfidf_q_25594,tfidf,25594,I try to check purchase {{Order Number}} current status,track_order,5,5.001,0.8800267921303913,1.0,1.0,1.0,1.0
+tfidf_q_24030,tfidf,24030,help me use the {{Account Category}} profile,switch_account,5,4.1489,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_14969,tfidf,14969,I don't know what I have to do to download my bill #12588,get_invoice,5,4.5868,0.9012657734402097,1.0,1.0,1.0,1.0
+tfidf_q_6393,tfidf,6393,I try to see in what situations can I ask for reimbursements,check_refund_policy,5,4.6439,0.8875332451536352,1.0,1.0,1.0,1.0
+tfidf_q_14749,tfidf,14749,updatikng data on platinum account,edit_account,5,3.8449,0.7427568287574325,1.0,1.0,1.0,1.0
+tfidf_q_22706,tfidf,22706,where do I submit feedback for your products?,review,5,3.8714,0.7208510595935627,1.0,1.0,1.0,1.0
+tfidf_q_24849,tfidf,24849,where do i switch to the gold account,switch_account,5,4.9384,0.6925462929315283,1.0,1.0,1.0,1.0
+tfidf_q_2262,tfidf,2262,"I entered a wrong delivery address, can you correct it?",change_shipping_address,5,4.3445,0.6414247667476356,1.0,1.0,1.0,1.0
+tfidf_q_12965,tfidf,12965,I call to check when my delivery is going to arrive,delivery_period,5,4.3966,0.8980250813786247,1.0,1.0,1.0,1.0
+tfidf_q_11680,tfidf,11680,remove {{Account Category}} accoint,delete_account,5,3.4884,0.7373798792564953,1.0,1.0,1.0,1.0
+tfidf_q_26689,tfidf,26689,can you show me the rebate current status?,track_refund,5,4.1578,0.6720957918542768,1.0,0.8,1.0,0.9558295932317544
+tfidf_q_25356,tfidf,25356,need to check order {{Order Number}} current status how do i do it,track_order,5,5.0815,0.7331375126535332,1.0,1.0,1.0,1.0
+tfidf_q_12641,tfidf,12641,i dont know what i have to do to see the shipment methods,delivery_options,5,4.8362,0.7585240065942,1.0,0.6,1.0,0.9674679834891693
+tfidf_q_21412,tfidf,21412,what do I need to do to notify of an issue with a signup?,registration_problems,5,4.611,0.8434134514808612,1.0,1.0,1.0,1.0
+tfidf_q_5550,tfidf,5550,i want help listing the available payment options,check_payment_methods,5,4.74,1.0,1.0,1.0,1.0,1.0
+tfidf_q_709,tfidf,709,I can no longer pay for order {{Order Number}},cancel_order,5,4.089,1.0,1.0,1.0,1.0,1.0
+tfidf_q_16344,tfidf,16344,refunding{{Currency Symbol}}{{Refund Amount}},get_refund,5,3.4932,1.0,1.0,1.0,1.0,1.0
+tfidf_q_4971,tfidf,4971,"I want to see what damn payment methods are allowed, help me",check_payment_methods,5,4.719,0.712159903046258,1.0,1.0,1.0,1.0
+tfidf_q_18285,tfidf,18285,could you help me reporting errors with online payment?,payment_issue,5,4.0407,0.7813357681100355,1.0,0.8,0.5,0.7606395682357036
+tfidf_q_4740,tfidf,4740,I have got to look for my bill #00108,check_invoice,5,4.3651,0.7139014143412004,1.0,1.0,1.0,1.0
+tfidf_q_2284,tfidf,2284,there are problems trying to edit my address,change_shipping_address,5,4.3313,0.7767047759019201,1.0,1.0,1.0,1.0
+tfidf_q_26832,tfidf,26832,I expect an refund of {{Refund Amount}} dollars,track_refund,5,4.2709,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_21325,tfidf,21325,I want help to inform of problems with a sign-up,registration_problems,5,4.9265,0.9267855250197847,1.0,1.0,1.0,1.0
+tfidf_q_10635,tfidf,10635,"I would like to create a pro account, how do I do it?",create_account,5,5.2294,0.9022586281834366,1.0,1.0,1.0,1.0
+tfidf_q_13182,tfidf,13182,how can I see how long it takes for the article to arrive?,delivery_period,5,4.5922,0.89763902861128,1.0,1.0,1.0,1.0
+tfidf_q_3957,tfidf,3957,check my bill{{Invoice Number}},check_invoice,5,3.8567,0.6832549788192728,1.0,0.8,1.0,0.9047172294870751
+tfidf_q_19266,tfidf,19266,I have got to earn a few of your product,place_order,5,4.9638,0.8480969641939816,1.0,1.0,1.0,1.0
+tfidf_q_12245,tfidf,12245,where do I see what shipping options I have?,delivery_options,5,3.821,0.7893696264144822,1.0,1.0,1.0,1.0
+tfidf_q_9986,tfidf,9986,help me to open a {{Account Type}} account,create_account,5,4.0661,0.8694062018351671,1.0,1.0,1.0,1.0
+tfidf_q_5045,tfidf,5045,how do I check what payment payment modalities are accepted?,check_payment_methods,5,4.6163,0.8975134694031734,1.0,1.0,1.0,1.0
+tfidf_q_20857,tfidf,20857,I am trying to find information about a forgotten PIN code,recover_password,5,4.7475,0.7375315790852055,1.0,0.4,1.0,1.0
+tfidf_q_6519,tfidf,6519,help me checking in what situations can I ask for a refund,check_refund_policy,5,4.1949,0.8705804446529187,1.0,1.0,1.0,1.0
+tfidf_q_20275,tfidf,20275,where do I restore my pass?,recover_password,5,3.553,0.7267027897602668,1.0,1.0,1.0,1.0
+tfidf_q_2118,tfidf,2118,have problems with a shipping address modification,change_shipping_address,5,3.6112,0.7878956594903455,1.0,1.0,1.0,1.0
+tfidf_q_20430,tfidf,20430,I have to retrieve my user PIN,recover_password,5,4.1415,0.919096496009728,1.0,1.0,1.0,1.0
+tfidf_q_22707,tfidf,22707,leave review for a service,review,5,3.4603,0.8230057458246719,1.0,1.0,1.0,1.0
+tfidf_q_6024,tfidf,6024,are the charges of ur services reimbursable,check_refund_policy,5,3.9131,0.5682417027220298,1.0,1.0,1.0,1.0
+tfidf_q_22493,tfidf,22493,can you help me write an opinion about a product?,review,5,4.2688,0.7339210455147354,1.0,1.0,1.0,1.0
+tfidf_q_22204,tfidf,22204,ya have a method to send my feedback for ur products,review,5,4.4005,0.7170827758231089,1.0,1.0,1.0,1.0
+tfidf_q_25511,tfidf,25511,status of order {{Order Number}},track_order,5,4.0167,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_25658,tfidf,25658,can uhelp me seethe ETA of order {{Order Number}},track_order,5,3.8121,0.6244734280553426,1.0,1.0,1.0,1.0
+tfidf_q_24252,tfidf,24252,use pro account,switch_account,5,3.0217,0.7343402432237034,1.0,0.2,1.0,1.0
+tfidf_q_564,tfidf,564,i want assistance canceling order {{Order Number}},cancel_order,5,3.9257,1.0,1.0,1.0,1.0,1.0
+tfidf_q_23777,tfidf,23777,I try to submit a new delivery address,set_up_shipping_address,5,3.944,0.8408203092773681,1.0,1.0,1.0,1.0
+tfidf_q_2859,tfidf,2859,I need assistance to modify my address,change_shipping_address,5,4.1104,0.7755169943783667,1.0,1.0,1.0,1.0
+tfidf_q_11048,tfidf,11048,"I don't want my user account, help cancelling it",delete_account,5,3.8422,0.5157105599508948,1.0,1.0,1.0,1.0
+tfidf_q_26492,tfidf,26492,I need to check my goddamn restitution status,track_refund,5,4.1926,0.5974527995740029,1.0,1.0,1.0,1.0
+tfidf_q_22901,tfidf,22901,I try to submit the secondary delivery address,set_up_shipping_address,5,4.514,0.8862684135687895,1.0,1.0,1.0,1.0
+tfidf_q_16470,tfidf,16470,assistance to get a rebate,get_refund,5,4.4017,0.8475364212962332,1.0,1.0,1.0,1.0
+tfidf_q_4348,tfidf,4348,i have got to see the damn bills from {{Person Name}},check_invoice,5,4.4336,0.8842065782814649,1.0,0.8,1.0,1.0
+tfidf_q_13623,tfidf,13623,"I have got to see when will my item arrive, how do I do it?",delivery_period,5,4.3148,0.915053914620116,1.0,1.0,1.0,1.0
+tfidf_q_12950,tfidf,12950,assistance seeing how soon can I expect my article,delivery_period,5,4.3594,0.9681247812015309,1.0,1.0,1.0,1.0
+tfidf_q_7840,tfidf,7840,where do I lodge a consumer claim against your business?,complaint,5,3.2824,0.7982230545754374,1.0,1.0,1.0,1.0
+tfidf_q_3761,tfidf,3761,how can i see the withdrawal fees,check_cancellation_fee,5,4.3405,0.9522281127093327,1.0,1.0,1.0,1.0
+tfidf_q_25012,tfidf,25012,want help to check the eta of purchase {{Order Number}},track_order,5,5.2694,0.9540711515889314,1.0,1.0,1.0,1.0
+tfidf_q_26091,tfidf,26091,could I know if there are any news on my reimbursement?,track_refund,5,4.3336,0.8233236214163334,1.0,1.0,1.0,1.0
+tfidf_q_25160,tfidf,25160,can I see order {{Order Number}} status?,track_order,5,4.066,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_16635,tfidf,16635,where to get a restitution of my money,get_refund,5,4.326,1.0,1.0,1.0,1.0,1.0
+tfidf_q_20932,tfidf,20932,report erroprs with sign-up,registration_problems,5,3.9735,0.5560094215722285,1.0,1.0,1.0,1.0
+tfidf_q_16887,tfidf,16887,where could I get a compensation of my money?,get_refund,5,4.5987,0.6746289250590787,1.0,1.0,1.0,1.0
+tfidf_q_16069,tfidf,16069,can you help me to request a reimbursement of money?,get_refund,5,4.4693,0.6868260884604279,1.0,1.0,1.0,1.0
+tfidf_q_15135,tfidf,15135,help geting my bills from {{Person Name}},get_invoice,5,4.1349,0.8893387646889062,0.0,0.0,0.0,0.0
+tfidf_q_13172,tfidf,13172,I'm trying to see how long it takes for my product to arrive,delivery_period,5,4.8126,0.9364644566960973,1.0,1.0,1.0,1.0
+tfidf_q_18651,tfidf,18651,"I cannot pay, help reporting goddamn problems with payments",payment_issue,5,3.8681,0.5499694381300227,1.0,1.0,1.0,1.0
+tfidf_q_11580,tfidf,11580,what do I need to do to cancell a {{Account Category}} account?,delete_account,5,4.1478,0.8386801603936911,0.0,0.0,0.0,0.0
+tfidf_q_24633,tfidf,24633,I don't know what to do to switch to the {{Account Type}} account,switch_account,5,4.1586,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_19445,tfidf,19445,I want assiostance to acquire an article,place_order,5,4.4058,0.7748603476651996,1.0,1.0,1.0,1.0
+tfidf_q_11201,tfidf,11201,deleting pro account,delete_account,5,3.4499,0.763080949075334,1.0,0.4,1.0,0.8503449055347546
+tfidf_q_1079,tfidf,1079,how to edt order {{Order Number}},change_order,5,10.2683,1.0000000000000002,1.0,0.6,1.0,0.8854598815714874
+tfidf_q_3397,tfidf,3397,I do not know what to do to check the cancellation charges,check_cancellation_fee,5,8.858,0.8812127650458237,1.0,1.0,1.0,1.0
+tfidf_q_4561,tfidf,4561,"I have got to look for bill #00108, how do I do it?",check_invoice,5,4.8805,0.7164187122791179,1.0,0.8,0.5,0.7606395682357036
+tfidf_q_1401,tfidf,1401,changing order {{Order Number}},change_order,5,3.2602,1.0,1.0,1.0,1.0,1.0
+tfidf_q_15695,tfidf,15695,I need help getting the bills from {{Person Name}},get_invoice,5,4.1964,0.7524470856222687,1.0,0.8,1.0,0.9828920819566879
+tfidf_q_21618,tfidf,21618,is it possible to report signup errors?,registration_problems,5,3.81,0.7706745648754164,1.0,1.0,1.0,1.0
+tfidf_q_2384,tfidf,2384,there is an error modifying the delivery address,change_shipping_address,5,3.3957,0.7966107409502842,1.0,0.8,1.0,1.0
+tfidf_q_18191,tfidf,18191,I am trying to inform of payment problems,payment_issue,5,4.5284,0.7762147935929291,1.0,1.0,1.0,1.0
+tfidf_q_13093,tfidf,13093,how long does it take for a damn article to arrive?,delivery_period,5,4.137,0.7653208696786495,1.0,1.0,1.0,1.0
+tfidf_q_3326,tfidf,3326,how to see the early termination penalties?,check_cancellation_fee,5,4.5853,0.9218193898379854,1.0,1.0,1.0,1.0
+tfidf_q_13527,tfidf,13527,want help to check whenmy package is gonna arrive,delivery_period,5,4.3298,0.7776712611554178,1.0,1.0,1.0,1.0
+tfidf_q_18992,tfidf,18992,i want assistance acquiring a few of ur article,place_order,5,3.5807,0.8321003431325246,1.0,1.0,1.0,1.0
+tfidf_q_8393,tfidf,8393,how can I see what hours I cn contact customer support?,contact_customer_service,5,4.3762,0.7685923376273728,1.0,1.0,1.0,1.0
+tfidf_q_14280,tfidf,14280,edit information on {{Account Category}} account,edit_account,5,3.1123,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_18616,tfidf,18616,I don't know what I have to do to notify of a payment error,payment_issue,5,4.5137,0.903101835641806,1.0,1.0,1.0,1.0
+tfidf_q_16726,tfidf,16726,where do i ask for a refund,get_refund,5,4.1236,0.7554505955249249,1.0,0.4,1.0,0.9197207891481876
+tfidf_q_8278,tfidf,8278,assistance to see at what time I can call customr service,contact_customer_service,5,4.2417,0.6773691024981003,1.0,1.0,1.0,1.0
+tfidf_q_12806,tfidf,12806,assistance seeing what shipment methods you offer,delivery_options,5,4.2424,0.7586454900668163,1.0,1.0,1.0,1.0
+tfidf_q_22775,tfidf,22775,I do not know how I could send my feedback for a product,review,5,4.0149,0.8178579249498786,1.0,1.0,1.0,1.0
+tfidf_q_19376,tfidf,19376,want help to purchase some of your product,place_order,5,4.9003,0.7456765134022577,1.0,1.0,1.0,1.0
+tfidf_q_21015,tfidf,21015,reporting registration issues,registration_problems,5,3.7862,0.7011671392937728,1.0,1.0,1.0,1.0
+tfidf_q_24793,tfidf,24793,"I want to use the {{Account Type}} profile, how to do it?",switch_account,5,4.8737,0.8068887992019979,1.0,1.0,1.0,1.0
+tfidf_q_21894,tfidf,21894,where could i leave a fucking comment for a service,review,5,4.6941,0.6359196277347436,1.0,1.0,1.0,1.0
+tfidf_q_23861,tfidf,23861,can huelp me setting the secondary delivery address up,set_up_shipping_address,5,3.936,0.6710306534978336,1.0,1.0,1.0,1.0
+tfidf_q_14447,tfidf,14447,correct details on gold account,edit_account,5,3.3125,0.6830335628012986,1.0,1.0,1.0,1.0
+tfidf_q_25262,tfidf,25262,can I check purchase {{Order Number}} current status?,track_order,5,3.4775,0.9593538697684594,1.0,1.0,1.0,1.0
+tfidf_q_11059,tfidf,11059,"I never use the {{Account Type}} account, can you help me to cancel it?",delete_account,5,4.6346,0.6252080394800205,1.0,0.6,1.0,1.0
+tfidf_q_9021,tfidf,9021,i need assistance to talk with somelne,contact_human_agent,5,4.1614,0.7958343403899378,1.0,1.0,1.0,1.0
+tfidf_q_14540,tfidf,14540,update information on premium account,edit_account,5,3.1094,0.674410732653808,1.0,1.0,1.0,1.0
+tfidf_q_11608,tfidf,11608,cancel {{Account Type}} acount,delete_account,5,3.745,1.0,1.0,0.8,1.0,1.0
+tfidf_q_17909,tfidf,17909,I need help to notify of a trouble with payment,payment_issue,5,4.233,0.8743361772174805,1.0,1.0,1.0,1.0
+tfidf_q_15095,tfidf,15095,I do not know how to download the bill #85632,get_invoice,5,4.4522,0.8330884368851148,1.0,1.0,1.0,1.0
+tfidf_q_17412,tfidf,17412,"I have to unsuscribe to your company newsletter, I need help",newsletter_subscription,5,4.204,0.691241059773177,1.0,1.0,1.0,1.0
+tfidf_q_21814,tfidf,21814,issues with registration,registration_problems,5,3.5512,0.8175988665085463,1.0,1.0,1.0,1.0
+tfidf_q_23224,tfidf,23224,i haveerrors entering my new shipping address,set_up_shipping_address,5,3.9803,0.8430352467708817,1.0,1.0,1.0,1.0
+tfidf_q_25680,tfidf,25680,wanna see order {{Order Number}} damn current status help me,track_order,5,4.1764,0.8422378513758473,1.0,1.0,1.0,1.0
+tfidf_q_19788,tfidf,19788,i do not know what to do to earn an item,place_order,5,4.1094,0.6970081345936996,1.0,1.0,1.0,1.0
+tfidf_q_15770,tfidf,15770,I am trying to download the bill from {{Person Name}},get_invoice,5,4.2394,1.0,1.0,1.0,1.0,1.0
+tfidf_q_7847,tfidf,7847,"the experience with you was awful, help me file a complaint",complaint,5,3.7946,0.7844747490751565,1.0,1.0,1.0,1.0
+tfidf_q_13696,tfidf,13696,help to see how long it takes for my item to arrive,delivery_period,5,4.9162,0.9588647796881095,1.0,1.0,1.0,1.0
+tfidf_q_19352,tfidf,19352,i have got to buy a product can i get some help,place_order,5,4.417,0.6010340749408629,1.0,0.8,1.0,0.9828920819566879
+tfidf_q_26236,tfidf,26236,i expect a restitution of {{Currency Symbol}}{{Refund Amount}},track_refund,5,4.0897,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_23892,tfidf,23892,wanna switch to th {{Account Category}} account could uhelp me,switch_account,5,4.1381,0.4529718082131531,1.0,1.0,1.0,1.0
+tfidf_q_18004,tfidf,18004,i have to notify of issues with payments,payment_issue,5,4.6189,0.8841194682490359,1.0,0.6,1.0,0.9469024295259745
+tfidf_q_14484,tfidf,14484,modify info on {{Account Category}} account,edit_account,5,3.44,1.0,1.0,1.0,1.0,1.0
+tfidf_q_19347,tfidf,19347,"I need to earn several bloody items, how could I do it?",place_order,5,5.1728,0.5754635605398644,1.0,1.0,1.0,1.0
+tfidf_q_15319,tfidf,15319,getting bills from {{Person Name}},get_invoice,5,3.2092,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_8438,tfidf,8438,I don't know what to do to speak with cusstomer service,contact_customer_service,5,4.0024,0.8130078096659541,1.0,0.4,1.0,0.8772153153380493
+tfidf_q_13992,tfidf,13992,modify info on premium account,edit_account,5,3.4221,0.6847304013332643,1.0,1.0,1.0,1.0
+tfidf_q_14502,tfidf,14502,edit information on premium account,edit_account,5,3.3807,0.7284172277639696,1.0,1.0,1.0,1.0
+tfidf_q_20838,tfidf,20838,what do i need to do to recover my user account pin code,recover_password,5,4.2354,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_4656,tfidf,4656,see bill from {{Person Name}},check_invoice,5,3.3285,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_4403,tfidf,4403,find my bills from {{Person Name}},check_invoice,5,3.802,1.0,1.0,0.8,1.0,1.0
+tfidf_q_8415,tfidf,8415,help me to see what hours I can reach customer support,contact_customer_service,5,4.5965,0.9193451873733457,1.0,1.0,1.0,1.0
+tfidf_q_26571,tfidf,26571,can you help me to see the restitution status?,track_refund,5,4.55,0.7769327799209643,1.0,1.0,1.0,1.0
+tfidf_q_11095,tfidf,11095,"I want to cancel a damn {{Account Type}} account, I need help",delete_account,5,4.1562,0.5851839198091408,1.0,0.6,1.0,0.8529278650606567
+tfidf_q_49,tfidf,49,assistance with canceling purchase {{Order Number}},cancel_order,5,4.3326,1.0,1.0,1.0,1.0,1.0
+tfidf_q_11199,tfidf,11199,i do not know what i need to do to remove the {{Account Type}} account,delete_account,5,4.4283,1.0,1.0,1.0,1.0,1.0
+tfidf_q_24827,tfidf,24827,i dont khow what i need to do to change to the {{Account Type}} account,switch_account,5,4.5576,0.8464824284493956,1.0,1.0,1.0,1.0
+tfidf_q_16984,tfidf,16984,could you help me to unsubscribe to the company newsletter?,newsletter_subscription,5,4.3421,0.813452128097338,1.0,1.0,1.0,1.0
+tfidf_q_2184,tfidf,2184,i have problems editing my delivery address,change_shipping_address,5,3.5015,0.8382590606787279,1.0,1.0,1.0,1.0
+tfidf_q_5912,tfidf,5912,i dont know how to check  ur allowed payment modalities,check_payment_methods,5,4.7891,0.7811753928947094,1.0,1.0,1.0,1.0
+tfidf_q_1101,tfidf,1101,I can't swap some items of purchase {{Order Number}},change_order,5,3.7149,1.0,1.0,1.0,1.0,1.0
+tfidf_q_1443,tfidf,1443,could you help me to delete something?,change_order,5,4.0041,0.6891706285420971,1.0,0.6,1.0,0.9060254355346823
+tfidf_q_2821,tfidf,2821,"the address changed, could I update it?",change_shipping_address,5,4.0265,0.6209760869738316,1.0,1.0,1.0,1.0
+tfidf_q_17893,tfidf,17893,want help subscribing to ur companynewsletter,newsletter_subscription,5,4.9437,0.6409717075963183,1.0,1.0,1.0,1.0
+tfidf_q_13428,tfidf,13428,need to check how soon can i ezpect my package,delivery_period,5,4.7738,0.7974707578690184,1.0,1.0,1.0,1.0
+tfidf_q_22521,tfidf,22521,is their a section to submit my feedback about a product,review,5,5.4235,0.6833208136856049,1.0,1.0,1.0,1.0
+tfidf_q_19066,tfidf,19066,how to shop some articles?,place_order,5,4.157,1.0000000000000002,1.0,1.0,1.0,1.0
+tfidf_q_13635,tfidf,13635,assistance seeing how soon can I expect my item,delivery_period,5,3.9854,0.8089437929046178,1.0,1.0,1.0,1.0
+tfidf_q_6402,tfidf,6402,in what cases can I request reimbursements?,check_refund_policy,5,3.3096,0.8855797381506251,1.0,1.0,1.0,1.0
+tfidf_q_20552,tfidf,20552,I need information about my access key retrieval,recover_password,5,3.7927,0.8672941181026225,1.0,1.0,1.0,1.0
+tfidf_q_10210,tfidf,10210,help me creating a {{Account Type}} account,create_account,5,3.6011,0.7950520076615603,1.0,1.0,1.0,1.0

@@ -1,0 +1,13 @@
+query,expected_intent
+I need to cancel an order I just placed,cancel_order
+Can I update items in my current order?,change_order
+Please change my delivery address for this order,change_shipping_address
+Will I be charged if I cancel now?,check_cancellation_fee
+Where can I download my invoice?,get_invoice
+Which payment options do you currently accept?,check_payment_methods
+I want my money back for this purchase,get_refund
+How long does a refund usually take to arrive?,track_refund
+Can you tell me where my package is right now?,track_order
+How many days does shipping usually take?,delivery_period
+I need to talk to a live support agent,contact_human_agent
+I forgot my password and cannot log in,recover_password
